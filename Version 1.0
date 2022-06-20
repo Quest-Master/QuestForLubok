@@ -822,12 +822,6 @@ If (cmd$ = "TALK TO SKELETON") And r = 78 Then
     Do: Loop Until InKey$ = ""
     Do: Loop Until InKey$ <> ""
 End If
-If (cmd$ = "TAKE SKELETON") And r = 78 Then
-    Cls
-    GoTo win:
-    Do: Loop Until InKey$ = ""
-    Do: Loop Until InKey$ <> ""
-End If
 ''''''''''''''''''''''''''''''''''''''''''
 If (cmd$ = "EXAMINE SKELETON") And r = 100 Then
     Cls
