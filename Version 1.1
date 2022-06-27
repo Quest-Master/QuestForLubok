@@ -1552,6 +1552,30 @@ If (cmd$ = "READ SIGN") And r = 139 Then
     Do: Loop Until InKey$ = ""
     Do: Loop Until InKey$ <> ""
 End If
+'''''''''''''''''''''''''''''''''''''''''''
+If (cmd$ = "EXAMINE STATUE") And r = 205 Then
+    Cls
+    Print "The over grown brush of this forgotten place had twisted around the"
+    Print "statue. It's eyes were glowing yellow as if it were alive. It stood"
+    Print "looking out into the distance, ready for battle. There at it's feet"
+    Print "laid a stone plaque."
+    Do: Loop Until InKey$ = ""
+    Do: Loop Until InKey$ <> ""
+End If
+If (cmd$ = "READ PLAQUE") And r = 205 Then
+    Cls
+    Print "In memoriam of King Lunok, for he and the seventh army fought against"
+    Print "the Nomads who threatened our very existence."
+    Do: Loop Until InKey$ = ""
+    Do: Loop Until InKey$ <> ""
+End If
+If (cmd$ = "TALK TO STATUE") And r = 205 Then
+    Cls
+    Print "The wind slowly grows silent. As the world around you is blanketed"
+    Print "in silence. It is like the world at that very moment didn't exist."
+    Do: Loop Until InKey$ = ""
+    Do: Loop Until InKey$ <> ""
+End If
 
 
 ''''''''''''''''''''''''''''''''''''''''''''Take Item Commands
