@@ -1,4 +1,4 @@
-// Copyright 2019-2020 Linus Åkesson
+// Copyright 2019-2022 Linus Åkesson
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are met:
@@ -208,7 +208,7 @@ function createdoc() {
 	cont.setAttribute("id", "aaaboutlink");
 	cont.setAttribute("target", "_blank");
 	cont.setAttribute("href", "https://linusakesson.net/dialog/aamachine/");
-	cont.innerHTML = "&Aring;-machine web interpreter v0.5.3";
+	cont.innerHTML = "&Aring;-machine web interpreter v0.5.4";
 	line = document.createElement("div");
 	line.setAttribute("class", "aaaboutline");
 	line.appendChild(cont);
@@ -646,7 +646,6 @@ window.run_game = function(story64, options) {
 				span = document.createElement("span");
 				$(span).addClass(io.links_enabled? "aalink" : "aahidelink");
 				span.href = "#0";
-				span.role = "link";
 				span.appendChild(document.createTextNode(str));
 				this.current.appendChild(span);
 				this.install_link(span, str);
@@ -873,7 +872,6 @@ window.run_game = function(story64, options) {
 			span = document.createElement("span");
 			$(span).addClass(io.links_enabled? "aalink" : "aahidelink");
 			span.href = "#0";
-			span.role = "link";
 			this.current.appendChild(span);
 			this.install_link(span, str);
 			this.current = span;
@@ -889,7 +887,6 @@ window.run_game = function(story64, options) {
 			span = document.createElement("span");
 			$(span).addClass(io.links_enabled? "aalink" : "aahidelink");
 			span.href = "#0";
-			span.role = "link";
 			this.current.appendChild(span);
 			this.self_link_span = span;
 			this.self_link_str = "";
@@ -1285,10 +1282,8 @@ window.run_game = function(story64, options) {
 			io.links_enabled = en;
 			if(en) {
 				$(".aahidelink").removeClass("aahidelink").addClass("aalink");
-				$(".aahidelink").attr("role", "link");
 			} else {
 				$(".aalink").removeClass("aalink").addClass("aahidelink");
-				$(".aahidelink").removeAttr("role");
 			}
 		}
 	}
