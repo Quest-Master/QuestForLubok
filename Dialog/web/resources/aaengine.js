@@ -1,4 +1,4 @@
-// Copyright 2019-2020 Linus Åkesson
+// Copyright 2019-2022 Linus Åkesson
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are met:
