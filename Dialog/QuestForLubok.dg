@@ -1437,14 +1437,14 @@
 #cages
 (name *)
 	cages
-(* is #in #r436)
+(* is #in #r435)
 (descr *)
 	Handmade cages crafted out of scrap wood. Used to contain the Chickens that will be soon sold.
 
 #chickens
 (name *)
 	chickens
-(* is #in #r436)
+(* is #in #r435)
 (descr *)
 	The chickens go about their lives, calling out to one another and soon join the ones with cold dead eyes.
 (grammar [release [object]] for [release $])
@@ -3875,7 +3875,7 @@
 (room *)
 (name *)	r274
 (from * go #north to #r273)
-(from #r274 go #west to #r346)
+(from * go #west to #r346)
 (look *)
 	You look on in complete surprise at the hidden temple that stands before you.
 
@@ -3964,7 +3964,7 @@
 (room *)
 (name *)	r285
 (from * go #north to #r286)
-(from #r285 go #south to #r284)
+(from * go #south to #r284)
 (look *)
 	Everything about this place reminds you of someone resting on their death bed.
 
@@ -4268,7 +4268,7 @@
 (room *)
 (name *)	r322
 (from * go #east to #r324)
-(from #r322 go #west to #r323)
+(from * go #west to #r323)
 (from * go #north to #r325)
 (from * go #south to #r321)
 (look *)
@@ -4307,7 +4307,7 @@
 #r327
 (room *)
 (name *)	r327
-(from #r327 go #east to #r328)
+(from * go #east to #r328)
 (from * go #north to #r330)
 (from * go #south to #r326)
 (from * go #west to #r329)
@@ -4389,7 +4389,7 @@
 #r337
 (room *)
 (name *)	r337
-(from #r337 go #west to #r338)
+(from * go #west to #r338)
 (from * go #south to #r336)
 (look *)
 	The traveling of muttering voices carry within ear shot. But you can't make out what they are saying.
@@ -4437,295 +4437,295 @@
 (room *)
 (name *)	r343
 (from * go #south to #r342)
-(from #r343 go #east to #r344)
+(from * go #east to #r344)
 (look *)
 	The flickering of the candles hung from the walls. Dripping hot wax was on the ground as if it had been forgotten.
 
 #r344
 (room *)
 (name *)	r344
-(from #r344 go #west to #r343)
+(from * go #west to #r343)
 (look *)
 	There before you is that of an Old Woman. She seems surprised to see you. The small room appeared to be lived in. Though, there wasn't a bed or anything of value.
 
 #r345
 (room *)
 (name *)	r345
-(from #r345 go #west to #r335)
-(from #r345 go #east to #r457)
+(from * go #west to #r335)
+(from * go #east to #r457)
 (look *)
 	You stand before a small doorway that leads to the basement of the old church.
 
 #r346
 (room *)
 (name *)	r346
-(from #r346 go #east to #r274)
-(from #r346 go #south to #r362)
-(from #r346 go #west to #r347)
+(from * go #east to #r274)
+(from * go #south to #r362)
+(from * go #west to #r347)
 (look *)
 	You look upon the entrance of the old temple. Faint music can be heard playing off in the distance. The place is dimly lit. Before you is a Monk.
 
 #r347
 (room *)
 (name *)	r347
-(from #r347 go #east to #r346)
-(from #r347 go #north to #r348)
+(from * go #east to #r346)
+(from * go #north to #r348)
 (look *)
 	The floors are decorated with handcrafted rugs. The walls appeared to have been kept in perfect condition.
 
 #r348
 (room *)
 (name *)	r348
-(from #r348 go #north to #r349)
-(from #r348 go #south to #r347)
+(from * go #north to #r349)
+(from * go #south to #r347)
 (look *)
 	While you slowly make your way through this place, you feel a sense of peace come over you.
 
 #r349
 (room *)
 (name *)	r349
-(from #r349 go #south to #r348)
-(from #r349 go #west to #r350)
+(from * go #south to #r348)
+(from * go #west to #r350)
 (look *)
 	You enter a vast room built out of wood without a single nail used. The room is dimly lit as everything of value was hidden.
 
 #r350
 (room *)
 (name *)	r350
-(from #r350 go #east to #r349)
-(from #r350 go #west to #r351)
+(from * go #east to #r349)
+(from * go #west to #r351)
 (look *)
 	The walls are decorated with a vast banner hung by the rafters.
 
 #r351
 (room *)
 (name *)	r351
-(from #r351 go #east to #r350)
-(from #r351 go #north to #r352)
+(from * go #east to #r350)
+(from * go #north to #r352)
 (look *)
 	This place is completely void of life. All those who had dedicated what time they had on this planet within this place are no more.
 #r352
 (room *)
 (name *)	r352
-(from #r352 go #south to #r351)
-(from #r352 go #west to #r353)
+(from * go #south to #r351)
+(from * go #west to #r353)
 (look *)
 	A narrow hallway void of any markings. Everything within this place stands out as if crafted in another era.
 #r353
 (room *)
 (name *)	r353
-(from #r353 go #east to #r352)
-(from #r353 go #north to #r354)
+(from * go #east to #r352)
+(from * go #north to #r354)
 (look *)
 	There before you, you see a Monk going about his business within this unknown place.
 #r354
 (room *)
 (name *)	r354
-(from #r354 go #north to #r355)
-(from #r354 go #south to #r353)
+(from * go #north to #r355)
+(from * go #south to #r353)
 (look *)
 	The sound of someone speaking to themselves from off in the distance fills the air. The empty room reminds you of your impending death.
 #r355
 (room *)
 (name *)	r355
-(from #r355 go #south to #r354)
-(from #r355 go #west to #r356)
+(from * go #south to #r354)
+(from * go #west to #r356)
 (look *)
 	A small fire burns within the fireplace giving off an eerie glow.
 #r356
 (room *)
 (name *)	r356
-(from #r356 go #east to #r355)
-(from #r356 go #south to #r357)
+(from * go #east to #r355)
+(from * go #south to #r357)
 (look *)
 	You turn down a narrow hall looking into a vast place of darkness.
 #r357
 (room *)
 (name *)	r357
-(from #r357 go #north to #r356)
-(from #r357 go #west to #r358)
+(from * go #north to #r356)
+(from * go #west to #r358)
 (look *)
 	The darkness grows as the sound of the wind hallowing throughout this place. In the center of the room stands an open pit.
 #r358
 (room *)
 (name *)	r358
-(from #r358 go #east to #r357)
-(from #r358 go #north to #r359)
+(from * go #east to #r357)
+(from * go #north to #r359)
 (look *)
 	A staircase is before you. Where it leads is unknown.
 #r359
 (room *)
 (name *)	r359
-(from #r359 go #north to #r360)
-(from #r359 go #south to #r358)
+(from * go #north to #r360)
+(from * go #south to #r358)
 (look *)
 	You slowly make your way down the narrow stone staircase. The dim glow of the flickering candles show you only a few feet ahead of you.
 #r360
 (room *)
 (name *)	r360
-(from #r360 go #north to #r361)
-(from #r360 go #south to #r359)
+(from * go #north to #r361)
+(from * go #south to #r359)
 (look *)
 	The temperature drops as you can see your breath. Fear fills your soul as out in the distance you see the light at the end of the tunnel.
 #r361
 (room *)
 (name *)	r361
-(from #r361 go #north to #r511)
-(from #r361 go #south to #r360)
+(from * go #north to #r511)
+(from * go #south to #r360)
 (look *)
 	You feel as if you are standing before the edge of time itself.
 #r362
 (room *)
 (name *)	r362
-(from #r362 go #north to #r346)
-(from #r362 go #south to #r363)
+(from * go #north to #r346)
+(from * go #south to #r363)
 (look *)
 	The air grows thick with a cold chill that brings a shiver to you. Everything about this place seems a bit odd.
 #r363
 (room *)
 (name *)	r363
-(from #r363 go #north to #r362)
-(from #r363 go #south to #r364)
+(from * go #north to #r362)
+(from * go #south to #r364)
 (look *)
 	A world hidden away from the eyes of those from the outside world. You begin to wonder just what awaits you within this place.
 #r364
 (room *)
 (name *)	r364
-(from #r364 go #north to #r363)
-(from #r364 go #west to #r365)
+(from * go #north to #r363)
+(from * go #west to #r365)
 (look *)
 	The walls are decorated with paintings from another time. Before the era of Prince Lubok. Back when life seemed normal.
 #r365
 (room *)
 (name *)	r365
-(from #r365 go #east to #r364)
-(from #r365 go #west to #r366)
+(from * go #east to #r364)
+(from * go #west to #r366)
 (look *)
 	You are standing before a vast open area, revealing many stone slabs with a small basket before them for offerings.
 #r366
 (room *)
 (name *)	r366
-(from #r366 go #east to #r365)
-(from #r366 go #north to #r367)
+(from * go #east to #r365)
+(from * go #north to #r367)
 (look *)
 	The silence is deafening as you feel that you are truly alone within this vast world.
 #r367
 (room *)
 (name *)	r367
-(from #r367 go #north to #r368)
-(from #r367 go #south to #r366)
-(from #r367 go #west to #r369)
+(from * go #north to #r368)
+(from * go #south to #r366)
+(from * go #west to #r369)
 (look *)
 	You can hear the faint voice of someone talking to themselves.
 #r368
 (room *)
 (name *)	r368
-(from #r368 go #south to #r367)
+(from * go #south to #r367)
 (look *)
 	There before you, you see a Monk alone within this small room.
 #r369
 (room *)
 (name *)	r369
-(from #r369 go #east to #r367)
-(from #r369 go #west to #r370)
+(from * go #east to #r367)
+(from * go #west to #r370)
 (look *)
 	A narrow pathway takes you to another part of this place of worship.
 #r370
 (room *)
 (name *)	r370
-(from #r370 go #east to #r369)
-(from #r370 go #south to #r371)
+(from * go #east to #r369)
+(from * go #south to #r371)
 (look *)
 	You are standing before a vast entrance to a room. The floor is covered by sand. Almost like a place within another world.
 #r371
 (room *)
 (name *)	r371
-(from #r371 go #north to #r370)
-(from #r371 go #south to #r372)
-(from #r371 go #west to #r384)
+(from * go #north to #r370)
+(from * go #south to #r372)
+(from * go #west to #r384)
 (look *)
 	Everything about this place makes you feel that you are slowly allowing yourself to be within a world never before seen by an outsider.
 #r372
 (room *)
 (name *)	r372
-(from #r372 go #east to #r373)
-(from #r372 go #north to #r371)
+(from * go #east to #r373)
+(from * go #north to #r371)
 (look *)
 	This place is forever expanding, forever growing, and soon you are on the edge of the world of this dying faith. Though, this place was once a place for the masses now is nothing more than a graveyard.
 #r373
 (room *)
 (name *)	r373
-(from #r373 go #south to #r374)
-(from #r373 go #west to #r372)
+(from * go #south to #r374)
+(from * go #west to #r372)
 (look *)
 	You see an opening in the wall revealing a small stream of water that travels alongside the path.
 #r374
 (room *)
 (name *)	r374
-(from #r374 go #north to #r373)
-(from #r374 go #south to #r375)
+(from * go #north to #r373)
+(from * go #south to #r375)
 (look *)
 	There's an etching on the wall, made with much care in a forgotten language. Noticing the gathered collections of flowers, you realize that this is a resting place.
 #r375
 (room *)
 (name *)	r375
-(from #r375 go #east to #r380)
-(from #r375 go #north to #r374)
+(from * go #east to #r380)
+(from * go #north to #r374)
 (look *)
 	Rows of graves marking the spent lives of those who had dedicated to what they believed in.
 #r376
 (room *)
 (name *)	r376
-(from #r376 go #south to #r377)
+(from * go #south to #r377)
 (look *)
 	Everywhere you look is a constant reminder of just how large this group was at another time.
 #r377
 (room *)
 (name *)	r377
-(from #r377 go #east to #r378)
-(from #r377 go #north to #r376)
+(from * go #east to #r378)
+(from * go #north to #r376)
 (look *)
 	The one thing that you notice is that there are no mourners within this place and soon you realize that they have been forgotten.
 #r378
 (room *)
 (name *)	r378
-(from #r378 go #north to #r379)
-(from #r378 go #west to #r377)
+(from * go #north to #r379)
+(from * go #west to #r377)
 (look *)
 	Wandering around this place has filled you with a sense of fear mixed with dread. Every step takes you deeper in this place.
 #r379
 (room *)
 (name *)	r379
-(from #r379 go #east to #r382)
-(from #r379 go #north to #r380)
-(from #r379 go #south to #r378)
+(from * go #east to #r382)
+(from * go #north to #r380)
+(from * go #south to #r378)
 (look *)
 	The voices of the dead could be heard muttering amongst themselves.
 #r380
 (room *)
 (name *)	r380
-(from #r380 go #east to #r381)
-(from #r380 go #south to #r379)
-(from #r380 go #west to #r375)
+(from * go #east to #r381)
+(from * go #south to #r379)
+(from * go #west to #r375)
 (look *)
 	To your surprise you discover that you're not alone, as a Monk seems to be off to the side minding his own business.
 #r381
 (room *)
 (name *)	r381
-(from #r381 go #west to #r380)
+(from * go #west to #r380)
 (look *)
 	The reminders of the dead now will forever stay with you. But there is an energy in the air that gives you faith in your travels.
 #r382
 (room *)
 (name *)	r382
-(from #r382 go #south to #r383)
-(from #r382 go #west to #r379)
+(from * go #south to #r383)
+(from * go #west to #r379)
 (look *)
 	You are just wandering around at this point. You feel something within you that drives you to see it until the end. Out of respect.
 #r383
 (room *)
 (name *)	r383
-(from #r383 go #north to #r382)
+(from * go #north to #r382)
 (look *)
 	You reach the end of the path. A feeling of remorse overtakes you and in the moment, you give your final farewell to this place.
 	(current player $Player)
@@ -4736,724 +4736,724 @@
 #r384
 (room *)
 (name *)	r384
-(from #r384 go #east to #r371)
-(from #r384 go #west to #r385)
+(from * go #east to #r371)
+(from * go #west to #r385)
 (look *)
 	The sound of a bird filled the air with a sense of wonder and delight.
 #r385
 (room *)
 (name *)	r385
-(from #r385 go #east to #r384)
-(from #r385 go #south to #r386)
+(from * go #east to #r384)
+(from * go #south to #r386)
 (look *)
 	A ray of natural light can be seen reflecting off of the walls.
 #r386
 (room *)
 (name *)	r386
-(from #r386 go #north to #r385)
-(from #r386 go #south to #r387)
-(from #r386 go #west to #r388)
+(from * go #north to #r385)
+(from * go #south to #r387)
+(from * go #west to #r388)
 (look *)
 	The scent of fresh air fills the room. It almost reminds you of being back home during the late summer nights.
 #r387
 (room *)
 (name *)	r387
-(from #r387 go #north to #r386)
+(from * go #north to #r386)
 (look *)
 	A small and narrow room where to your surprise is occupied by another Monk. You can feel yourself relieved that your not alone yet again.
 #r388
 (room *)
 (name *)	r388
-(from #r388 go #east to #r386)
-(from #r388 go #west to #r389)
+(from * go #east to #r386)
+(from * go #west to #r389)
 (look *)
 	From the narrow path there comes a bright light at the end of this place. All the while the fresh air brings hope to your soul.
 #r389
 (room *)
 (name *)	r389
-(from #r389 go #east to #r388)
+(from * go #east to #r388)
 (look *)
 	There before you is a vast garden that is filled with trees and the sky is clear. The rays of the Sun fill you with warmth.
 #r390
 (room *)
 (name *)	r390
-(from #r390 go #east to #r317)
-(from #r390 go #west to #r391)
+(from * go #east to #r317)
+(from * go #west to #r391)
 (look *)
 	You stand before a vast entrance to an underground world. Hidden by a layer of dirt and hay. The voices of the many could be heard though faintly.
 #r391
 (room *)
 (name *)	r391
-(from #r391 go #east to #r390)
-(from #r391 go #north to #r392)
-(from #r391 go #west to #r409)
+(from * go #east to #r390)
+(from * go #north to #r392)
+(from * go #west to #r409)
 (look *)
 	A dirt path twists and turns throughout this hidden society.
 #r392
 (room *)
 (name *)	r392
-(from #r392 go #north to #r393)
-(from #r392 go #south to #r391)
+(from * go #north to #r393)
+(from * go #south to #r391)
 (look *)
 	The faint aroma of a meal being cooked carries in the air. The faint sound of someone singing can be heard. Just then you notice that your not alone and before you is a Villager.
 #r393
 (room *)
 (name *)	r393
-(from #r393 go #north to #r394)
-(from #r393 go #south to #r392)
+(from * go #north to #r394)
+(from * go #south to #r392)
 (look *)
 	Before you stands a collection of small homes etched into the earth.
 #r394
 (room *)
 (name *)	r394
-(from #r394 go #north to #r395)
-(from #r394 go #south to #r393)
-(from #r394 go #west to #r404)
+(from * go #north to #r395)
+(from * go #south to #r393)
+(from * go #west to #r404)
 (look *)
 	Everything in appearance looks primitive. Thrown together in such a way that makes these people truly happy.
 #r395
 (room *)
 (name *)	r395
-(from #r395 go #north to #r396)
-(from #r395 go #south to #r394)
+(from * go #north to #r396)
+(from * go #south to #r394)
 (look *)
 	You can see several families and people just working away on expanding the world of theirs.
 #r396
 (room *)
 (name *)	r396
-(from #r396 go #north to #r397)
-(from #r396 go #south to #r395)
-(from #r396 go #west to #r398)
+(from * go #north to #r397)
+(from * go #south to #r395)
+(from * go #west to #r398)
 (look *)
 	The masses are compelled to work their lives away in the hopes of being able to exist away from the watchful eye of Lubok.
 #r397
 (room *)
 (name *)	r397
-(from #r397 go #south to #r396)
+(from * go #south to #r396)
 (look *)
 	Standing of to the side, sitting in the dirt and taking a moment's break, a Villager greets you with a faint smile.
 #r398
 (room *)
 (name *)	r398
-(from #r398 go #east to #r396)
-(from #r398 go #west to #r399)
+(from * go #east to #r396)
+(from * go #west to #r399)
 (look *)
 	A narrow walkway that's been carved into the ground with the amount of foot traffic it's been receiving.
 #r399
 (room *)
 (name *)	r399
-(from #r399 go #east to #r398)
-(from #r399 go #west to #r400)
+(from * go #east to #r398)
+(from * go #west to #r400)
 (look *)
 	A loud scream fills the air to which brings a sudden stop in travel.
 #r400
 (room *)
 (name *)	r400
-(from #r400 go #east to #r399)
-(from #r400 go #north to #r417)
-(from #r400 go #south to #r401)
+(from * go #east to #r399)
+(from * go #north to #r417)
+(from * go #south to #r401)
 (look *)
 	Woven baskets containing the rewards of the harvest are stacked before you. The life line that these people require to survive.
 #r401
 (room *)
 (name *)	r401
-(from #r401 go #north to #r400)
-(from #r401 go #south to #r402)
+(from * go #north to #r400)
+(from * go #south to #r402)
 (look *)
 	Several homes line up before the pathway. Everything within this place there was nothing quite like it.
 #r402
 (room *)
 (name *)	r402
-(from #r402 go #east to #r403)
-(from #r402 go #north to #r401)
-(from #r402 go #south to #r405)
+(from * go #east to #r403)
+(from * go #north to #r401)
+(from * go #south to #r405)
 (look *)
 	The eyes of those within this place pay you no mind.
 #r403
 (room *)
 (name *)	r403
-(from #r403 go #east to #r404)
-(from #r403 go #west to #r402)
+(from * go #east to #r404)
+(from * go #west to #r402)
 (look *)
 	Nothing but a small open lot. Void of any dwelling.
 #r404
 (room *)
 (name *)	r404
-(from #r404 go #east to #r394)
-(from #r404 go #west to #r403)
+(from * go #east to #r394)
+(from * go #west to #r403)
 (look *)
 	A small Statue stands before you. Something about it makes you feel uneasy.
 #r405
 (room *)
 (name *)	r405
-(from #r405 go #north to #r402)
-(from #r405 go #south to #r406)
+(from * go #north to #r402)
+(from * go #south to #r406)
 (look *)
 	The air grows thick with a curtain of dust. Standing before you, you see a Villager holding a shovel in his hands.
 #r406
 (room *)
 (name *)	r406
-(from #r406 go #east to #r407)
-(from #r406 go #north to #r405)
-(from #r406 go #west to #r410)
+(from * go #east to #r407)
+(from * go #north to #r405)
+(from * go #west to #r410)
 (look *)
 	You reach a fork in the road. An alley to the left and an entrance to an unknown cavern.
 #r407
 (room *)
 (name *)	r407
-(from #r407 go #south to #r408)
-(from #r407 go #west to #r406)
+(from * go #south to #r408)
+(from * go #west to #r406)
 (look *)
 	A narrow alleyway leads you to a small Well.
 #r408
 (room *)
 (name *)	r408
-(from #r408 go #east to #r409)
-(from #r408 go #north to #r407)
+(from * go #east to #r409)
+(from * go #north to #r407)
 (look *)
 	Dirt rests in a pile before you. Just what are they going to do with it all?
 #r409
 (room *)
 (name *)	r409
-(from #r409 go #east to #r391)
-(from #r409 go #west to #r408)
+(from * go #east to #r391)
+(from * go #west to #r408)
 (look *)
 	The flickering of almost spent candles resting on dirty metal Plates give off a small ray of hope within this place.
 #r410
 (room *)
 (name *)	r410
-(from #r410 go #east to #r406)
-(from #r410 go #west to #r411)
+(from * go #east to #r406)
+(from * go #west to #r411)
 (look *)
 	An entrance to a cavern stands before you. Strange Symbols are etched into it.
 #r411
 (room *)
 (name *)	r411
-(from #r411 go #east to #r410)
-(from #r411 go #north to #r416)
-(from #r411 go #west to #r412)
+(from * go #east to #r410)
+(from * go #north to #r416)
+(from * go #west to #r412)
 (look *)
 	You are standing before a vast room that's free of any dirt or rock.
 #r412
 (room *)
 (name *)	r412
-(from #r412 go #east to #r411)
-(from #r412 go #north to #r413)
+(from * go #east to #r411)
+(from * go #north to #r413)
 (look *)
 	A cold chill fills the air as you walk deeper into this unknown world.
 #r413
 (room *)
 (name *)	r413
-(from #r413 go #north to #r414)
-(from #r413 go #south to #r412)
+(from * go #north to #r414)
+(from * go #south to #r412)
 (look *)
 	Strange Carvings etched into the walls tell of a strange story.
 #r414
 (room *)
 (name *)	r414
-(from #r414 go #east to #r415)
-(from #r414 go #south to #r413)
+(from * go #east to #r415)
+(from * go #south to #r413)
 (look *)
 	A strange glow is coming from the ceiling. Everything about this place seems off.
 #r415
 (room *)
 (name *)	r415
-(from #r415 go #south to #r416)
-(from #r415 go #west to #r414)
+(from * go #south to #r416)
+(from * go #west to #r414)
 (look *)
 	You are surprised to see the Villager standing before you. She appears to be examining the carvings on the walls.
 #r416
 (room *)
 (name *)	r416
-(from #r416 go #north to #r415)
-(from #r416 go #south to #r411)
+(from * go #north to #r415)
+(from * go #south to #r411)
 (look *)
 	The walls feel as if they are shrinking as from out in the distance you can see a faint light glimmering.
 #r417
 (room *)
 (name *)	r417
-(from #r417 go #north to #r427)
-(from #r417 go #south to #r400)
-(from #r417 go #west to #r418)
+(from * go #north to #r427)
+(from * go #south to #r400)
+(from * go #west to #r418)
 (look *)
 	The faint sounds of laughter can be heard. Everything around you grows eerily quiet.
 #r418
 (room *)
 (name *)	r418
-(from #r418 go #east to #r417)
-(from #r418 go #west to #r419)
+(from * go #east to #r417)
+(from * go #west to #r419)
 (look *)
 	Everything arounds seems to be close yet so far away. The ground below your feet seems more packed down.
 #r419
 (room *)
 (name *)	r419
-(from #r419 go #east to #r418)
-(from #r419 go #north to #r426)
-(from #r419 go #south to #r420)
+(from * go #east to #r418)
+(from * go #north to #r426)
+(from * go #south to #r420)
 (look *)
 	A wooden Sign hangs from a post sticking out of the ground. Perhaps a greeting or warning?
 #r420
 (room *)
 (name *)	r420
-(from #r420 go #north to #r419)
-(from #r420 go #west to #r421)
+(from * go #north to #r419)
+(from * go #west to #r421)
 (look *)
 	You see a Column standing out from the ground and reaching to the ceiling. Made by the hands of long dead workers.
 #r421
 (room *)
 (name *)	r421
-(from #r421 go #east to #r420)
-(from #r421 go #west to #r422)
+(from * go #east to #r420)
+(from * go #west to #r422)
 (look *)
 	Its a world not seen by anyone from the surface in several lifetimes.
 #r422
 (room *)
 (name *)	r422
-(from #r422 go #east to #r421)
-(from #r422 go #north to #r423)
+(from * go #east to #r421)
+(from * go #north to #r423)
 (look *)
 	The world around you begins to grow dark with every step. Though you are surrounded by light, you still feel dark.
 #r423
 (room *)
 (name *)	r423
-(from #r423 go #north to #r424)
-(from #r423 go #south to #r422)
+(from * go #north to #r424)
+(from * go #south to #r422)
 (look *)
 	A cool fresh breeze brushes past you.
 #r424
 (room *)
 (name *)	r424
-(from #r424 go #east to #r425)
-(from #r424 go #south to #r423)
+(from * go #east to #r425)
+(from * go #south to #r423)
 (look *)
 	Nothing more, but an endless pathway. Another world separated by only a few dozen feet of dirt.
 #r425
 (room *)
 (name *)	r425
-(from #r425 go #east to #r426)
-(from #r425 go #west to #r424)
+(from * go #east to #r426)
+(from * go #west to #r424)
 (look *)
 	Everything about this place makes you feel weak to your stomach. There is something within this place that is draining your life force.
 #r426
 (room *)
 (name *)	r426
-(from #r426 go #south to #r419)
-(from #r426 go #west to #r425)
+(from * go #south to #r419)
+(from * go #west to #r425)
 (look *)
 	The ceiling begins to grow dark as the place you have just entered has grown dark.
 #r427
 (room *)
 (name *)	r427
-(from #r427 go #north to #r428)
-(from #r427 go #south to #r417)
+(from * go #north to #r428)
+(from * go #south to #r417)
 (look *)
 	A lone Traveler stands before you. There's something uneasy about this individual. The path you have taken seems to be less traveled.
 #r428
 (room *)
 (name *)	r428
-(from #r428 go #east to #r429)
-(from #r428 go #south to #r427)
-(from #r428 go #west to #r445)
+(from * go #east to #r429)
+(from * go #south to #r427)
+(from * go #west to #r445)
 (look *)
 	You stand before a vast collection of trees and rock. In some attempt of bringing about a normal life while being stuck deep below.
 #r429
 (room *)
 (name *)	r429
-(from #r429 go #east to #r430)
-(from #r429 go #west to #r428)
+(from * go #east to #r430)
+(from * go #west to #r428)
 (look *)
 	A narrow path leads you to a small gathering of Villagers.
 #r430
 (room *)
 (name *)	r430
-(from #r430 go #north to #r431)
-(from #r430 go #west to #r429)
+(from * go #north to #r431)
+(from * go #west to #r429)
 (look *)
 	You find yourself before a rock wall dripping with water. It gives off a feeling of ice. How odd.
 #r431
 (room *)
 (name *)	r431
-(from #r431 go #north to #r432)
-(from #r431 go #south to #r430)
+(from * go #north to #r432)
+(from * go #south to #r430)
 (look *)
 	A Lantern hangs from an old wooden post. It flickers and at any moment it could go out, leaving you in a world of eternal darkness.
 #r432
 (room *)
 (name *)	r432
-(from #r432 go #north to #r433)
-(from #r432 go #south to #r431)
+(from * go #north to #r433)
+(from * go #south to #r431)
 (look *)
 	The faint sound of children laughing fills the air. But alas you can't pinpoint its origins.
 #r433
 (room *)
 (name *)	r433
-(from #r433 go #east to #r434)
-(from #r433 go #south to #r432)
-(from #r433 go #west to #r440)
+(from * go #east to #r434)
+(from * go #south to #r432)
+(from * go #west to #r440)
 (look *)
 	The glow of a fire gives off enough light to blind you for a moment.
 #r434
 (room *)
 (name *)	r434
-(from #r434 go #north to #r435)
-(from #r434 go #west to #r433)
+(from * go #north to #r435)
+(from * go #west to #r433)
 (look *)
 	A Villager stands before you dancing to a song that only plays in her mind.
 #r435
 (room *)
 (name *)	r435
-(from #r435 go #north to #r436)
-(from #r435 go #south to #r434)
+(from * go #north to #r436)
+(from * go #south to #r434)
 (look *)
 	Cages filled with Chickens are placed along the side of the path. A sort of market in the hopes of making a sale.
 #r436
 (room *)
 (name *)	r436
-(from #r436 go #south to #r435)
-(from #r436 go #west to #r437)
+(from * go #south to #r435)
+(from * go #west to #r437)
 (look *)
 	A narrow path leads into a dark abyss.
 #r437
 (room *)
 (name *)	r437
-(from #r437 go #east to #r436)
-(from #r437 go #west to #r438)
+(from * go #east to #r436)
+(from * go #west to #r438)
 (look *)
 	Before you, you see a small Child standing off to the side near what appears to be her home.
 #r438
 (room *)
 (name *)	r438
-(from #r438 go #east to #r437)
-(from #r438 go #south to #r439)
-(from #r438 go #west to #r453)
+(from * go #east to #r437)
+(from * go #south to #r439)
+(from * go #west to #r453)
 (look *)
 	Stitched together from whatever material they could come to find amongst their existence. Used to divide their land from the others.
 #r439
 (room *)
 (name *)	r439
-(from #r439 go #north to #r438)
-(from #r439 go #south to #r440)
+(from * go #north to #r438)
+(from * go #south to #r440)
 (look *)
 	You are standing in a darkened alleyway, separated by the poorly built homes that are spreading like wildfire.
 #r440
 (room *)
 (name *)	r440
-(from #r440 go #east to #r433)
-(from #r440 go #north to #r439)
-(from #r440 go #west to #r441)
+(from * go #east to #r433)
+(from * go #north to #r439)
+(from * go #west to #r441)
 (look *)
 	A small market is before you. The exotic aroma fills the air. A crowd of people going about their business as usual.
 #r441
 (room *)
 (name *)	r441
-(from #r441 go #east to #r440)
-(from #r441 go #west to #r442)
+(from * go #east to #r440)
+(from * go #west to #r442)
 (look *)
 	Small tables are littered about all selling what they had Made. While many people spoke to one another.
 #r442
 (room *)
 (name *)	r442
-(from #r442 go #east to #r441)
-(from #r442 go #north to #r451)
-(from #r442 go #south to #r443)
-(from #r442 go #west to #r450)
+(from * go #east to #r441)
+(from * go #north to #r451)
+(from * go #south to #r443)
+(from * go #west to #r450)
 (look *)
 	Music could be heard playing in the distance. Perhaps a celebration?
 #r443
 (room *)
 (name *)	r443
-(from #r443 go #north to #r442)
-(from #r443 go #south to #r444)
+(from * go #north to #r442)
+(from * go #south to #r444)
 (look *)
 	There you can see a young Couple talking about the future.
 #r444
 (room *)
 (name *)	r444
-(from #r444 go #north to #r443)
-(from #r444 go #south to #r445)
-(from #r444 go #west to #r446)
+(from * go #north to #r443)
+(from * go #south to #r445)
+(from * go #west to #r446)
 (look *)
 	Nothing but the constant reminder that you are truly in a lost and alien world.
 #r445
 (room *)
 (name *)	r445
-(from #r445 go #east to #r428)
-(from #r445 go #north to #r444)
+(from * go #east to #r428)
+(from * go #north to #r444)
 (look *)
 	A small Bench placed off to the side away from the busy traffic.
 #r446
 (room *)
 (name *)	r446
-(from #r446 go #east to #r444)
-(from #r446 go #west to #r447)
+(from * go #east to #r444)
+(from * go #west to #r447)
 (look *)
 	You stand before a small gathering of Graves. Mostly likely those who had built this place for the living.
 #r447
 (room *)
 (name *)	r447
-(from #r447 go #east to #r446)
-(from #r447 go #north to #r448)
+(from * go #east to #r446)
+(from * go #north to #r448)
 (look *)
 	The darkness soon engulfs the world around you.
 #r448
 (room *)
 (name *)	r448
-(from #r448 go #north to #r449)
-(from #r448 go #south to #r447)
+(from * go #north to #r449)
+(from * go #south to #r447)
 (look *)
 	Small piles of dirt litter the area and you begin to wonder just how large this place is.
 #r449
 (room *)
 (name *)	r449
-(from #r449 go #east to #r450)
-(from #r449 go #south to #r448)
+(from * go #east to #r450)
+(from * go #south to #r448)
 (look *)
 	You are greeted by nothing but a thick blanket of darkness.
 #r450
 (room *)
 (name *)	r450
-(from #r450 go #east to #r442)
-(from #r450 go #west to #r449)
+(from * go #east to #r442)
+(from * go #west to #r449)
 (look *)
 	A Strange being sits in the middle of the road. A torn and dirty sheet is draped over her shoulders.
 #r451
 (room *)
 (name *)	r451
-(from #r451 go #north to #r452)
-(from #r451 go #south to #r442)
+(from * go #north to #r452)
+(from * go #south to #r442)
 (look *)
 	With every step you take the sound of it echoes into the abyss.
 #r452
 (room *)
 (name *)	r452
-(from #r452 go #east to #r453)
-(from #r452 go #north to #r454)
-(from #r452 go #south to #r451)
+(from * go #east to #r453)
+(from * go #north to #r454)
+(from * go #south to #r451)
 (look *)
 	The walls of this society are reaching the end of their limits. Soon you realize that you are all alone here.
 #r453
 (room *)
 (name *)	r453
-(from #r453 go #east to #r438)
-(from #r453 go #west to #r452)
+(from * go #east to #r438)
+(from * go #west to #r452)
 (look *)
 	A Musician plays a song that fills the world around you with joy. You soon see a few others begin to dance and laugh.
 #r454
 (room *)
 (name *)	r454
-(from #r454 go #south to #r452)
-(from #r454 go #west to #r455)
+(from * go #south to #r452)
+(from * go #west to #r455)
 (look *)
 	You are standing before a darkened path. A few lanterns lead the way.
 #r455
 (room *)
 (name *)	r455
-(from #r455 go #east to #r454)
-(from #r455 go #west to #r456)
+(from * go #east to #r454)
+(from * go #west to #r456)
 (look *)
 	A home built in such a way that you begin to think that you've reached the home of a Chief of somekind. With rock sculptures greeting you at the entranceway.
 #r456
 (room *)
 (name *)	r456
-(from #r456 go #east to #r455)
+(from * go #east to #r455)
 (look *)
 	There before you, you see the grand Chief of this underground village of sorts. A strong silence fills the air around you.
 #r457
 (room *)
 (name *)	r457
-(from #r457 go #west to #r345)
+(from * go #west to #r345)
 (look *)
 	You find yourself standing before an over grown courtyard. From as far as you can see, you witness in the distance a great storm approaching.
 #r458
 (room *)
 (name *)	r458
-(from #r458 go #east to #r477)
-(from #r458 go #north to #r459)
-(from #r458 go #south to #r484)
-(from #r458 go #west to #r457)
+(from * go #east to #r477)
+(from * go #north to #r459)
+(from * go #south to #r484)
+(from * go #west to #r457)
 (look *)
 	The ground below your feet is hard almost as if it were about to turn into stone.
 #r459
 (room *)
 (name *)	r459
-(from #r459 go #east to #r460)
-(from #r459 go #south to #r458)
+(from * go #east to #r460)
+(from * go #south to #r458)
 (look *)
 	The path twists and turns until you find yourself before an old Stone Well. There is a strange smell in the air that fills your lungs with almost a sickening effect.
 #r460
 (room *)
 (name *)	r460
-(from #r460 go #east to #r461)
-(from #r460 go #west to #r459)
+(from * go #east to #r461)
+(from * go #west to #r459)
 (look *)
 	Upon your journey you come upon a Knight standing before you.
 #r461
 (room *)
 (name *)	r461
-(from #r461 go #north to #r462)
-(from #r461 go #west to #r460)
+(from * go #north to #r462)
+(from * go #west to #r460)
 (look *)
 	The sound of music playing in the background. As wild flowers cover the path.
 #r462
 (room *)
 (name *)	r462
-(from #r462 go #east to #r463)
-(from #r462 go #north to #r472)
-(from #r462 go #south to #r461)
+(from * go #east to #r463)
+(from * go #north to #r472)
+(from * go #south to #r461)
 (look *)
 	You stand before a small clearing where you see a woman singing to an audience of none. She sings out to you and tells you her name is Emma.
 #r463
 (room *)
 (name *)	r463
-(from #r463 go #east to #r464)
-(from #r463 go #west to #r462)
+(from * go #east to #r464)
+(from * go #west to #r462)
 (look *)
 	The strange pathway makes you feel as if you are entering another world of sorts.
 #r464
 (room *)
 (name *)	r464
-(from #r464 go #east to #r465)
-(from #r464 go #west to #r463)
+(from * go #east to #r465)
+(from * go #west to #r463)
 (look *)
 	A strange Statue stands before you on a pillar crafted out of marble.
 #r465
 (room *)
 (name *)	r465
-(from #r465 go #north to #r466)
-(from #r465 go #west to #r464)
+(from * go #north to #r466)
+(from * go #west to #r464)
 (look *)
 	Vines and brush begin to cover the path and soon you wonder just where this path will take you.
 #r466
 (room *)
 (name *)	r466
-(from #r466 go #north to #r467)
-(from #r466 go #south to #r465)
+(from * go #north to #r467)
+(from * go #south to #r465)
 (look *)
 	From the corner of your eye you believe you see something moving in the shadows.
 #r467
 (room *)
 (name *)	r467
-(from #r467 go #east to #r473)
-(from #r467 go #south to #r466)
-(from #r467 go #west to #r468)
+(from * go #east to #r473)
+(from * go #south to #r466)
+(from * go #west to #r468)
 (look *)
 	The air around you grow still as if the world around you is frozen.
 #r468
 (room *)
 (name *)	r468
-(from #r468 go #east to #r467)
-(from #r468 go #west to #r469)
+(from * go #east to #r467)
+(from * go #west to #r469)
 (look *)
 	You hold your breath as you travel in the hopes of going unheard.
 #r469
 (room *)
 (name *)	r469
-(from #r469 go #east to #r468)
-(from #r469 go #west to #r470)
+(from * go #east to #r468)
+(from * go #west to #r470)
 (look *)
 	A tired Caretaker sits off to the side on an old wooden bench. The hand of time aged his body to the brink of dust.
 #r470
 (room *)
 (name *)	r470
-(from #r470 go #east to #r469)
-(from #r470 go #south to #r472)
-(from #r470 go #west to #r471)
+(from * go #east to #r469)
+(from * go #south to #r472)
+(from * go #west to #r471)
 (look *)
 	The silence that surrounds you is enough to bring fear to your soul.
 #r471
 (room *)
 (name *)	r471
-(from #r471 go #east to #r470)
+(from * go #east to #r470)
 (look *)
 	A dark shadow is cast upon the land. As you look up to the heavens to catch a quick glimpse it returns behind the wall of grey clouds.
 #r472
 (room *)
 (name *)	r472
-(from #r472 go #north to #r470)
-(from #r472 go #south to #r462)
+(from * go #north to #r470)
+(from * go #south to #r462)
 (look *)
 	The sound of birds singing a song from above fills you with a sense of utter joy. You notice that they are perched upon the old stone walls.
 #r473
 (room *)
 (name *)	r473
-(from #r473 go #east to #r474)
-(from #r473 go #west to #r467)
+(from * go #east to #r474)
+(from * go #west to #r467)
 (look *)
 	The path begins to grow narrow as the world around you slowly closes in on you.
 #r474
 (room *)
 (name *)	r474
-(from #r474 go #north to #r475)
-(from #r474 go #west to #r473)
+(from * go #north to #r475)
+(from * go #west to #r473)
 (look *)
 	Stone slabs cover the ground as you notice the brush around you appears to be thriving.
 #r475
 (room *)
 (name *)	r475
-(from #r475 go #north to #r476)
-(from #r475 go #south to #r474)
+(from * go #north to #r476)
+(from * go #south to #r474)
 (look *)
 	A Sign hangs off of a wooden post as before you is a crumbling hole within the old stone wall. You feel a sense of freedom wash over you. All the while a breeze brushes past you.
 #r476
 (room *)
 (name *)	r476
-(from #r476 go #south to #r475)
+(from * go #south to #r475)
 (look *)
 	You are standing before a vast open world. Free from the confines of the castle. Just what lurks out there is anyone's guess.
 #r477
 (room *)
 (name *)	r477
-(from #r477 go #east to #r478)
-(from #r477 go #west to #r458)
+(from * go #east to #r478)
+(from * go #west to #r458)
 (look *)
 	You are standing before a long path carved into the earth. Rows of trees block the path before you.
 #r478
 (room *)
 (name *)	r478
-(from #r478 go #east to #r479)
-(from #r478 go #west to #r477)
+(from * go #east to #r479)
+(from * go #west to #r477)
 (look *)
 	The friendly greeting from an Odd Fellow waving at you from off to the side almost if he was attempting to hide in the trees.
 #r479
 (room *)
 (name *)	r479
-(from #r479 go #east to #r480)
-(from #r479 go #west to #r478)
+(from * go #east to #r480)
+(from * go #west to #r478)
 (look *)
 	The call of a loud beast filled the air. The ground beneath you shakes with such might and before you can do anything it flies into the clouds.(par)
 	The sudden calmness brings about a feeling of fear.
 #r480
 (room *)
 (name *)	r480
-(from #r480 go #east to #r481)
-(from #r480 go #west to #r479)
+(from * go #east to #r481)
+(from * go #west to #r479)
 (look *)
 	With the air growing heavy you feel a strange presence come over you.
 #r481
 (room *)
 (name *)	r481
-(from #r481 go #east to #r482)
-(from #r481 go #west to #r480)
+(from * go #east to #r482)
+(from * go #west to #r480)
 (look *)
 	From out in the distance you can see a vast set of iron gates. They stood around ten feet tall, perhaps an exit from this place?
 #r482
 (room *)
 (name *)	r482
-(from #r482 go #east to #r483)
-(from #r482 go #west to #r481)
+(from * go #east to #r483)
+(from * go #west to #r481)
 (look *)
 	You stand before the iron gates that are closed. From where you are standing you can see the dark and unknown world.
 #r483
 (room *)
 (name *)	r483
-(from #r483 go #west to #r482)
+(from * go #west to #r482)
 (look *)
 	With a stern push you manage to muster the strength in opening one of the gates. The sound of the metal creaking filled the air and caused you to move fast not knowing what lurked about the untamed area.
 #r484
 (room *)
 (name *)	r484
-(from #r484 go #east to #r485)
-(from #r484 go #north to #r458)
+(from * go #east to #r485)
+(from * go #north to #r458)
 (look *)
 	You are standing on a gravel path. The air is sweet with the smell of new life. The trees are baring Fruit ripe for the picking.
 	(current player $Player)
@@ -5464,87 +5464,87 @@
 #r485
 (room *)
 (name *)	r485
-(from #r485 go #east to #r486)
-(from #r485 go #west to #r484)
+(from * go #east to #r486)
+(from * go #west to #r484)
 (look *)
 	A mere matter or moments pass by as you begin to feel a strange change come over you. You can't place your finger on it.
 #r486
 (room *)
 (name *)	r486
-(from #r486 go #south to #r487)
-(from #r486 go #west to #r485)
+(from * go #south to #r487)
+(from * go #west to #r485)
 (look *)
 	The sound of laughter fills the air. As if you are being watched. You quickly scan the area and find nothing.
 #r487
 (room *)
 (name *)	r487
-(from #r487 go #north to #r486)
-(from #r487 go #south to #r488)
+(from * go #north to #r486)
+(from * go #south to #r488)
 (look *)
 	You stand before the entrance of a hidden cabin. Covered by a thick wall of brush the only thing you notice is the carved wooden Face that calls out to you.
 #r488
 (room *)
 (name *)	r488
-(from #r488 go #east to #r497)
-(from #r488 go #north to #r487)
-(from #r488 go #west to #r489)
+(from * go #east to #r497)
+(from * go #north to #r487)
+(from * go #west to #r489)
 (look *)
 	As you push open the vine covered door, the world that had been left untouched for so long remains like another world.
 #r489
 (room *)
 (name *)	r489
-(from #r489 go #east to #r488)
-(from #r489 go #south to #r490)
+(from * go #east to #r488)
+(from * go #south to #r490)
 (look *)
 	The walls are decorated with several old Paintings that depict the horrors that had befallen this land and those left to live within it.
 #r490
 (room *)
 (name *)	r490
-(from #r490 go #north to #r489)
-(from #r490 go #south to #r491)
+(from * go #north to #r489)
+(from * go #south to #r491)
 (look *)
 	A narrow hallway stretches off into the dimly lit world of the unknown.
 #r491
 (room *)
 (name *)	r491
-(from #r491 go #north to #r490)
+(from * go #north to #r490)
 (look *)
 	The place remains as it had for decades now. Left untouched by the hands of those who strip places like this to the bare foundation.
 #r492
 (room *)
 (name *)	r492
-(from #r491 go #south to #r492)
-(from #r492 go #east to #r493)
-(from #r492 go #north to #r491)
+(from * go #south to #r492)
+(from * go #east to #r493)
+(from * go #north to #r491)
 (look *)
 	A small parlor decorated with bookshelves filled to the brim with out of print Books. An old Chair next to a Fireplace. What one would need to relax within this unforsaken world.
 #r493
 (room *)
 (name *)	r493
-(from #r493 go #east to #r494)
-(from #r493 go #west to #r492)
+(from * go #east to #r494)
+(from * go #west to #r492)
 (look *)
 	You enter what appears to be a dining room. A Table is placed in the middle of the room. Six chairs are pulled back and this place seems to have been kept up. The table is decorated and setup, almost as if who put this all together were waiting for you.
 #r494
 (room *)
 (name *)	r494
-(from #r494 go #east to #r503)
-(from #r494 go #north to #r495)
-(from #r494 go #west to #r493)
+(from * go #east to #r503)
+(from * go #north to #r495)
+(from * go #west to #r493)
 (look *)
 	The walls are covered in a layer of dust as the once beautiful floor is now discoloured. Everything about this place seems dead.
 #r495
 (room *)
 (name *)	r495
-(from #r495 go #north to #r496)
-(from #r495 go #south to #r494)
+(from * go #north to #r496)
+(from * go #south to #r494)
 (look *)
 	A narrow hallway appears to have been a part of the original structure, as the walls of it are constructed out of old stones.
 #r496
 (room *)
 (name *)	r496
-(from #r496 go #north to #r497)
-(from #r496 go #south to #r495)
+(from * go #north to #r497)
+(from * go #south to #r495)
 (look *)
 	Off to the side stands a small table and upon it is a vase with a lone White Flower.
 	(current player $Player)
@@ -5555,369 +5555,369 @@
 #r497
 (room *)
 (name *)	r497
-(from #r497 go #east to #r498)
-(from #r497 go #south to #r496)
-(from #r497 go #west to #r488)
+(from * go #east to #r498)
+(from * go #south to #r496)
+(from * go #west to #r488)
 (look *)
 	The walls are scarred with long scratch marks. The floor is uneven and gives the appearance that it could give way at any moment.
 #r498
 (room *)
 (name *)	r498
-(from #r498 go #east to #r499)
-(from #r498 go #west to #r497)
+(from * go #east to #r499)
+(from * go #west to #r497)
 (look *)
 	The Bust of a woman rests on a pedestal overlooking an old Window.
 #r499
 (room *)
 (name *)	r499
-(from #r499 go #south to #r500)
-(from #r499 go #west to #r498)
+(from * go #south to #r500)
+(from * go #west to #r498)
 (look *)
 	An empty store room that was once filled with everything needed for one to survive. Now it contains empty boxes and barrels.
 #r500
 (room *)
 (name *)	r500
-(from #r500 go #north to #r499)
-(from #r500 go #south to #r501)
+(from * go #north to #r499)
+(from * go #south to #r501)
 (look *)
 	Nothing but constant reminders of those who once called this place home all those years ago.
 #r501
 (room *)
 (name *)	r501
-(from #r501 go #north to #r500)
-(from #r501 go #south to #r502)
+(from * go #north to #r500)
+(from * go #south to #r502)
 (look *)
 	An old Rocking Chair sits off to the side and resting on an old small carpet.
 #r502
 (room *)
 (name *)	r502
-(from #r502 go #north to #r501)
-(from #r502 go #west to #r503)
+(from * go #north to #r501)
+(from * go #west to #r503)
 (look *)
 	You enter a small dimly lit room. Everything about this place seems to have been forgotten.
 #r503
 (room *)
 (name *)	r503
-(from #r503 go #east to #r502)
-(from #r503 go #south to #r504)
-(from #r503 go #west to #r494)
+(from * go #east to #r502)
+(from * go #south to #r504)
+(from * go #west to #r494)
 (look *)
 	The dim rays of light from the outside world enter through the bottom of the old wooden door.
 #r504
 (room *)
 (name *)	r504
-(from #r504 go #north to #r503)
-(from #r504 go #south to #r505)
+(from * go #north to #r503)
+(from * go #south to #r505)
 (look *)
 	You are standing before a path etched out into the ground by heavy foot traffic. From off in the distance you see a clearing.
 #r505
 (room *)
 (name *)	r505
-(from #r505 go #north to #r504)
-(from #r505 go #south to #r508)
-(from #r505 go #west to #r506)
+(from * go #north to #r504)
+(from * go #south to #r508)
+(from * go #west to #r506)
 (look *)
 	With everystep you take, you can see the vast wilderness begin to take shape.
 #r506
 (room *)
 (name *)	r506
-(from #r506 go #east to #r505)
-(from #r506 go #south to #r507)
+(from * go #east to #r505)
+(from * go #south to #r507)
 (look *)
 	A strong silence fills the air as you begin to feel yourself go deeper into this place of danger.
 #r507
 (room *)
 (name *)	r507
-(from #r507 go #east to #r508)
-(from #r507 go #north to #r506)
-(from #r507 go #south to #r509)
+(from * go #east to #r508)
+(from * go #north to #r506)
+(from * go #south to #r509)
 (look *)
 	With every passing moment you can't help but to be relaxed by the fresh air from the world around you.
 #r508
 (room *)
 (name *)	r508
-(from #r508 go #north to #r505)
-(from #r508 go #west to #r507)
+(from * go #north to #r505)
+(from * go #west to #r507)
 (look *)
 	The path takes you to a clearing within the forest and before you is an old Stick stuck into the ground.
 #r509
 (room *)
 (name *)	r509
-(from #r509 go #north to #r507)
-(from #r509 go #south to #r510)
+(from * go #north to #r507)
+(from * go #south to #r510)
 (look *)
 	You can hear the sounds of birds chirping from out in the distance.
 #r510
 (room *)
 (name *)	r510
-(from #r510 go #north to #r509)
+(from * go #north to #r509)
 (look *)
 	Before you is a Sign hanging from a tree. A cold gust of wind embraces you from the vast lake. It calls out to you like a sirens song.
 #r511
 (room *)
 (name *)	r511
-(from #r511 go #north to #r512)
-(from #r511 go #south to #r361)
+(from * go #north to #r512)
+(from * go #south to #r361)
 (look *)
 	You stand before a vast garden hidden away within this temple. The air hangs thick with the smell of nature. Everything about this place seems strange to you.
 #r512
 (room *)
 (name *)	r512
-(from #r512 go #east to #r548)
-(from #r512 go #south to #r511)
-(from #r512 go #west to #r513)
+(from * go #east to #r548)
+(from * go #south to #r511)
+(from * go #west to #r513)
 (look *)
 	Everything about this place shouldn't even exist, as the trees stretch out over you and the songs of birds fill the air.
 #r513
 (room *)
 (name *)	r513
-(from #r513 go #east to #r512)
-(from #r513 go #north to #r514)
+(from * go #east to #r512)
+(from * go #north to #r514)
 (look *)
 	The path twists and turns until you find yourself standing before a Statue that seems almosto ut of place within this hidden world.
 #r514
 (room *)
 (name *)	r514
-(from #r514 go #south to #r513)
-(from #r514 go #west to #r515)
+(from * go #south to #r513)
+(from * go #west to #r515)
 (look *)
 	A strange call from out in the garden brings you to a clear stop.
 #r515
 (room *)
 (name *)	r515
-(from #r515 go #east to #r514)
-(from #r515 go #north to #r516)
+(from * go #east to #r514)
+(from * go #north to #r516)
 (look *)
 	With every step you take draws you closer into the unknown wilderness.
 #r516
 (room *)
 (name *)	r516
-(from #r516 go #south to #r515)
-(from #r516 go #west to #r517)
+(from * go #south to #r515)
+(from * go #west to #r517)
 (look *)
 	Strange gatherings of Flowers never before seen by your own eye. They draw your attention and for a moment you feel a sense of peace.
 #r517
 (room *)
 (name *)	r517
-(from #r517 go #east to #r516)
-(from #r517 go #north to #r518)
+(from * go #east to #r516)
+(from * go #north to #r518)
 (look *)
 	A world forever lost within this place. From out in the distance you can hear the faint sound of a lute being played.
 #r518
 (room *)
 (name *)	r518
-(from #r518 go #south to #r517)
-(from #r518 go #west to #r519)
+(from * go #south to #r517)
+(from * go #west to #r519)
 (look *)
 	You are greeted by a small Bird perched on a low hanging branch.
 #r519
 (room *)
 (name *)	r519
-(from #r519 go #east to #r518)
-(from #r519 go #north to #r520)
+(from * go #east to #r518)
+(from * go #north to #r520)
 (look *)
 	You discovered another Statue towering over you. Its appearance looks almost alien to you in a way.
 #r520
 (room *)
 (name *)	r520
-(from #r520 go #north to #r521)
-(from #r520 go #south to #r519)
+(from * go #north to #r521)
+(from * go #south to #r519)
 (look *)
 	A long path that is partially blocked by the over grown bushes.
 #r521
 (room *)
 (name *)	r521
-(from #r521 go #north to #r522)
-(from #r521 go #south to #r520)
+(from * go #north to #r522)
+(from * go #south to #r520)
 (look *)
 	Every step you take brings you through the darkened pathway.
 #r522
 (room *)
 (name *)	r522
-(from #r522 go #north to #r523)
-(from #r522 go #south to #r521)
+(from * go #north to #r523)
+(from * go #south to #r521)
 (look *)
 	The thick brush begins to cover everything around you in darkness.
 #r523
 (room *)
 (name *)	r523
-(from #r523 go #east to #r524)
-(from #r523 go #south to #r522)
+(from * go #east to #r524)
+(from * go #south to #r522)
 (look *)
 	The ground beneath your feet begins to grow damp as if someone had taken the time to water these plants.
 #r524
 (room *)
 (name *)	r524
-(from #r524 go #north to #r525)
-(from #r524 go #west to #r523)
+(from * go #north to #r525)
+(from * go #west to #r523)
 (look *)
 	Everything about this place seems a bit off to you. Then standing before you is that of an Odd Tree that looks almost fake in a way.
 #r525
 (room *)
 (name *)	r525
-(from #r525 go #east to #r526)
-(from #r525 go #south to #r524)
+(from * go #east to #r526)
+(from * go #south to #r524)
 (look *)
 	With every step you take yo find yourself standing in a small clearing.
 #r526
 (room *)
 (name *)	r526
-(from #r526 go #north to #r527)
-(from #r526 go #west to #r525)
+(from * go #north to #r527)
+(from * go #west to #r525)
 (look *)
 	Nothing but silence surrounds you. All the while you feel as if you are being watched by some unknown force.
 #r527
 (room *)
 (name *)	r527
-(from #r527 go #east to #r528)
-(from #r527 go #south to #r526)
+(from * go #east to #r528)
+(from * go #south to #r526)
 (look *)
 	-You must leave now.- The voice of a Strange Soul speaks out to you.
 #r528
 (room *)
 (name *)	r528
-(from #r528 go #north to #r529)
-(from #r528 go #west to #r527)
+(from * go #north to #r529)
+(from * go #west to #r527)
 (look *)
 	The walls around you are covered in Strange Vines that seem to move as if it seems unsure about you.
 #r529
 (room *)
 (name *)	r529
-(from #r529 go #east to #r530)
-(from #r529 go #south to #r528)
+(from * go #east to #r530)
+(from * go #south to #r528)
 (look *)
 	You discover a narrow path that's been overgrown with weeds and the odd branch that makes travel a bit more cautious.
 #r530
 (room *)
 (name *)	r530
-(from #r530 go #east to #r532)
-(from #r530 go #north to #r531)
-(from #r530 go #west to #r529)
+(from * go #east to #r532)
+(from * go #north to #r531)
+(from * go #west to #r529)
 (look *)
 	Standing before you almost from out of nowhere is the Gardener. She looks upon the lifeforms to which she has devoted her life to.
 #r531
 (room *)
 (name *)	r531
-(from #r531 go #south to #r530)
+(from * go #south to #r530)
 (look *)
 	A small clearing with a Statue standing on a pillar. You feel unsure about standing around for to long.
 #r532
 (room *)
 (name *)	r532
-(from #r532 go #south to #r533)
-(from #r532 go #west to #r530)
+(from * go #south to #r533)
+(from * go #west to #r530)
 (look *)
 	Nothing but silence and stillness surrounds you to no end.
 #r533
 (room *)
 (name *)	r533
-(from #r533 go #east to #r534)
-(from #r533 go #north to #r532)
+(from * go #east to #r534)
+(from * go #north to #r532)
 (look *)
 	The wilderness within this garden appears to be slowly taking over every inch of open space in this place.
 #r534
 (room *)
 (name *)	r534
-(from #r534 go #south to #r535)
-(from #r534 go #west to #r533)
+(from * go #south to #r535)
+(from * go #west to #r533)
 (look *)
 	You begin to notice that the Flowers move about on their own.
 #r535
 (room *)
 (name *)	r535
-(from #r535 go #east to #r536)
-(from #r535 go #north to #r534)
+(from * go #east to #r536)
+(from * go #north to #r534)
 (look *)
 	Some of these plants haven't been seen by the outside world in a few hundred years or so.
 #r536
 (room *)
 (name *)	r536
-(from #r536 go #south to #r537)
-(from #r536 go #west to #r535)
+(from * go #south to #r537)
+(from * go #west to #r535)
 (look *)
 	From out in the garden you notice something or someone moving about, hidden from sight.
 #r537
 (room *)
 (name *)	r537
-(from #r537 go #east to #r538)
-(from #r537 go #north to #r536)
+(from * go #east to #r538)
+(from * go #north to #r536)
 (look *)
 	After a few passing moments you look upon the Trees and they seem to be calling out to you. But just what are they trying to say?
 #r538
 (room *)
 (name *)	r538
-(from #r538 go #south to #r539)
-(from #r538 go #west to #r537)
+(from * go #south to #r539)
+(from * go #west to #r537)
 (look *)
 	You notice a few vines are moving by themselves along the ground. As if they have a mind of their own?
 #r539
 (room *)
 (name *)	r539
-(from #r539 go #north to #r538)
-(from #r539 go #south to #r540)
+(from * go #north to #r538)
+(from * go #south to #r540)
 (look *)
 	The path clears out before you as someone or something is aiding you on this journey.
 #r540
 (room *)
 (name *)	r540
-(from #r540 go #north to #r539)
-(from #r540 go #south to #r541)
+(from * go #north to #r539)
+(from * go #south to #r541)
 (look *)
 	A strange odor fills the air around you. It reminds you of rotten flesh left out in the sun.
 #r541
 (room *)
 (name *)	r541
-(from #r541 go #north to #r540)
-(from #r541 go #south to #r542)
+(from * go #north to #r540)
+(from * go #south to #r542)
 (look *)
 	With every passing moment you look about the area and feel that you should leave this place before its too late.
 #r542
 (room *)
 (name *)	r542
-(from #r542 go #north to #r541)
-(from #r542 go #west to #r543)
+(from * go #north to #r541)
+(from * go #west to #r543)
 (look *)
 	You notice a Statue standing before you almost completely covered in overgrown vines and brush.
 #r543
 (room *)
 (name *)	r543
-(from #r543 go #east to #r542)
-(from #r543 go #south to #r544)
+(from * go #east to #r542)
+(from * go #south to #r544)
 (look *)
 	A Pale Figure is kneeling on the ground. He seems to be muttering to himself in a forgotten language.
 #r544
 (room *)
 (name *)	r544
-(from #r544 go #north to #r543)
-(from #r544 go #west to #r545)
+(from * go #north to #r543)
+(from * go #west to #r545)
 (look *)
 	A strange bright light hangs above you as if it were like the sun. But you don't notice an opening of anykind.
 #r545
 (room *)
 (name *)	r545
-(from #r545 go #east to #r544)
-(from #r545 go #south to #r546)
+(from * go #east to #r544)
+(from * go #south to #r546)
 (look *)
 	Everything about this place makes you wonder just what happened here? A chill runs through your body fueled with the fear of the unknown.
 #r546
 (room *)
 (name *)	r546
-(from #r546 go #north to #r545)
-(from #r546 go #west to #r547)
+(from * go #north to #r545)
+(from * go #west to #r547)
 (look *)
 	Past the clearing you see a Statue towering over all that you see.
 #r547
 (room *)
 (name *)	r547
-(from #r547 go #east to #r546)
-(from #r547 go #south to #r548)
+(from * go #east to #r546)
+(from * go #south to #r548)
 (look *)
 	This strange place reminds you of a forgotten world. A place which hasn't been seen by the eyes of an outsider in quite sometime.
 #r548
 (room *)
 (name *)	r548
-(from #r548 go #north to #r547)
-(from #r548 go #west to #r512)
+(from * go #north to #r547)
+(from * go #west to #r512)
 (look *)
 	The vast unknown of this place brings you to the point to which you think that you should turn back.
 
