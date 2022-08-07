@@ -1795,7 +1795,9 @@ If cmd$ = "GO NORTH" Or cmd$ = "NORTH" Or cmd$ = "N" Then
     If r = 579 Then: r = 578: GoTo moved
     If r = 578 Then: r = 576: GoTo moved
     If r = 585 Then: r = 586: GoTo moved
-    If r = 586 Then: r = 587: GoTo moved
+    If r = 586 Then: r = 587: GoTo moved   
+    If r = 589 Then: r = 588: GoTo moved
+    If r = 588 Then: r = 584: GoTo moved
     If r = 583 Then: r = 582: GoTo moved
     If r = 582 Then: r = 580: GoTo moved
     If r = 555 Then: r = 556: GoTo moved
@@ -1804,6 +1806,8 @@ If cmd$ = "GO NORTH" Or cmd$ = "NORTH" Or cmd$ = "N" Then
     If r = 591 Then: r = 590: GoTo moved
     If r = 594 Then: r = 595: GoTo moved
     If r = 595 Then: r = 596: GoTo moved
+    If r = 601 Then: r = 602: GoTo moved
+    If r = 602 Then: r = 554: GoTo moved
     If r = 598 Then: r = 599: GoTo moved
     If r = 599 Then: r = 600: GoTo moved
     If r = 605 Then: r = 604: GoTo moved
@@ -2497,6 +2501,10 @@ If cmd$ = "GO SOUTH" Or cmd$ = "SOUTH" Or cmd$ = "S" Then
     If r = 590 Then: r = 589: GoTo moved
     If r = 589 Then: r = 596: GoTo moved 
     If r = 549 Then: r = 550: GoTo moved
+    If r = 555 Then: r = 602: GoTo moved
+    If r = 602 Then: r = 601: GoTo moved
+    If r = 584 Then: r = 588: GoTo moved
+    If r = 588 Then: r = 589: GoTo moved
     If r = 600 Then: r = 601: GoTo moved
     If r = 601 Then: r = 603: GoTo moved
     If r = 609 Then: r = 610: GoTo moved
