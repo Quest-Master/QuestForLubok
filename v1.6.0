@@ -5541,8 +5541,8 @@ End If
 '''''''''''''''''''''''''''''''''''''''''''
 If (cmd$ = "EXAMINE MAP") And r = 613 Then
     Cls
-    Print "The book is bound in worn tan leather. It looked to be covered in"
-    Print "a thin layer of dust."
+    Print "An old canvas map pinned to the wall with a few rusted nails. Handcrafted"
+    Print "and painted in such a way that it appears to resemble that of a work of art."
     Do: Loop Until InKey$ = ""
     Do: Loop Until InKey$ <> ""
 End If
