@@ -4906,7 +4906,7 @@ If (cmd$ = "EXAMINE COLUMN") And r = 420 Then
     Do: Loop Until InKey$ <> ""
 End If
 '''''''''''''''''''''''''''''''''''''''''''
-If (cmd$ = "EXAMINE CAGES") And r = 436 Then
+If (cmd$ = "EXAMINE CAGES") And r = 435 Then
     Cls
     Print "Handmade cages crafted out of scrap wood. Used to contain the Chickens that"
     Print "will soon sold."
@@ -4914,14 +4914,14 @@ If (cmd$ = "EXAMINE CAGES") And r = 436 Then
     Do: Loop Until InKey$ <> ""
 End If
 '''''''''''''''''''''''''''''''''''''''''''
-If (cmd$ = "EXAMINE CHICKENS") And r = 436 Then
+If (cmd$ = "EXAMINE CHICKENS") And r = 435 Then
     Cls
     Print "The chickens go about they're lives. Calling out to one another and joined by"
     Print "their cold dead eyes."
     Do: Loop Until InKey$ = ""
     Do: Loop Until InKey$ <> ""
 End If
-If (cmd$ = "RELEASE CHICKENS") And r = 436 Then
+If (cmd$ = "RELEASE CHICKENS") And r = 435 Then
     Cls
     Print "While no one is watching you quickly unlatch the cage door and stand back to"
     Print "watch the chaos ensue. As the chickens flew for they're lives the sounds of"
