@@ -2486,8 +2486,8 @@ If cmd$ = "GO SOUTH" Or cmd$ = "SOUTH" Or cmd$ = "S" Then
     If r = 579 Then: r = 580: GoTo moved
     If r = 580 Then: r = 581: GoTo moved
     If r = 581 Then: r = 557: GoTo moved
-    If r = 557 Then: r = 558: GoTo moved
-    If r = 558 Then: r = 559: GoTo moved
+    If r = 557 Then: r = 556: GoTo moved
+    If r = 556 Then: r = 559: GoTo moved
     If r = 552 Then: r = 551: GoTo moved
     If r = 551 Then: r = 550: GoTo moved
     If r = 585 Then: r = 584: GoTo moved
