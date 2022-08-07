@@ -1,12 +1,12 @@
 (story title)
-	Quest For Lubok
+	Quest for Lubok
 (story author)
 	Quest-Master
 (story noun)
 	A text based game like those one would find in the early eighties.
 (story ifid)
 	71F702A0-E11E-4CB5-ADD6-4301B3B72456
-(story release 5)
+(story release 6)
 
 (library links enabled)
 (default actions enabled)
@@ -341,6 +341,50 @@
 	A lost soul who sent himself out into this hellish world. A puzzled look on his face spoke volumes.
 (perform [talk to *])
 	Without the staff Lubok will fall. The history of this castle are hidden and must be found.
+
+#ghost6
+(animate *)
+(female *)
+(name *)
+	ghost
+(* is #in #r560)
+(descr *)
+	She stands before you with her hand cradled in her arm. Her clothes tell a story as if she's centuries old.
+(perform [talk to *])
+	Finally someone alive in this place. If you seek knowledge on your journey, then you must read from our many books.
+
+#ghost7
+(animate *)
+(male *)
+(name *)
+	ghost
+(* is #in #r578)
+(descr *)
+	An old soul that appears to be lost judging from the expression on his face.
+(perform [talk to *])
+	If you wish to see what lurks out in the wild, I recall seeing a map somewhere in the back of this place.
+
+#ghost8
+(animate *)
+(female *)
+(name *)
+	ghost
+(* is #in #r588)
+(descr *)
+	She hushes you for being too loud. Everything about her seems to be from another time altogether, with her face buried in a book.
+(perform [talk to *])
+	Can you please be quiet. Some of us are trying to read.
+
+#ghost9
+(animate *)
+(male *)
+(name *)
+	ghost
+(* is #in #r602)
+(descr *)
+	With a friendly smile and greeting he carries on with what he was doing.
+(perform [talk to *])
+	Though it's been decades since I've died, I can't seem but to return to this dead place.
 
 #hellhound
 (animate *)
@@ -970,6 +1014,16 @@
 	It stands almost perfectly still like that of a statue. It's a mere reminder of what beings lurk within this forsaken place.
 (perform [talk to *])
 	It ignores you. Its probably for the best at this point.
+
+#figure2
+(animate *)
+(name *)
+	figure
+(* is #in #r637)
+(descr *)
+	A strange person, almost fully removed from reality itself. The cold blank stare is that from a poor soul who's been lost within a world filled with madness.
+(perform [talk to *])
+	...everyone is dead...they turned on each other...and they'll turn on you too.
 
 #piano
 (name *)
@@ -1619,6 +1673,328 @@
 (descr *)
 	You notice that the vines move on their own. Gently at first to make you believe that it could be just the wind, but knowing that they are indoors that makes you realize something isn't right about this.
 
+#lostsoul
+(animate *)
+(name *)
+	lost soul
+(male *)
+(* is #in #r569)
+(descr *)
+	The twisted and tormented form of this once living soul. A price to pay for a life of misery.
+(perform [talk to *])
+	My life is over but yours isn't. There is a book that details the lost city of [Begafor].
+#BegaforTopic
+(name *)
+	Begafor
+(topic *)
+(perform [talk to #lostsoul about *])
+	It's the tomb of the King that once ruled this province. For it is told that unlimited riches await those with the courage to find it.
+
+#lostsoul2
+(animate *)
+(name *)
+	lost soul
+(* is #in #r581)
+(descr *)
+	They stand hugging the wall. Their face is painted on with the emotion of agony.
+(perform [talk to *])
+	I am bound to this place for eternity. But you still have time.
+
+#lostsoul3
+(animate *)
+(name *)
+	lost soul
+(* is #in #r597)
+(descr *)
+	The skin upon the face had been stretched to the breaking point. With their hands bound behind them and with tears running down their face.
+(perform [talk to *])
+	The pain of living doesn't compare to the pain of death. To this dead place.
+
+#librarian
+(animate *)
+(name *)
+	librarian
+(female *)
+(* is #in #r551)
+(descr *)
+	Sitting behind a desk wearing a red robe and glasses. At first glance she looks to be that of a judge of sorts. But she has taken an oath in ensuring the preservation of these books.
+(perform [talk to *])
+	This place was once filled with so much life. The great records that fills this place are now my legacy. The hopes and dreams of people forever fading away into nothingness.
+
+#oldguard
+(animate *)
+(name *)
+	old guard
+(male *)
+(* is #in #r607)
+(descr *)
+	Wearing scouffed armor and standing as if he were waiting for a battle to break out of this place and take a stand in the field of battle. The glance he gives you from the opening in his helmet is one of pain and sorrow.
+(perform [talk to *])
+	I must continue to stand guard for the glory of the [King].
+#KingTopic
+(name *)
+	king
+(topic *)
+(perform [talk to #oldguard about *])
+	King Begafor of course. He said before the life drained from his body that he would return to protect us from the terrors of evil.
+
+#witch
+(animate *)
+(name *)
+	witch
+(female *)
+(* is #in #r632)
+(descr *)
+	The old and wise Witch greets you with a friendly smile. Her eyes are pale and cloudy. With her head completely bald and while the exposed skin is covered in dirt. The clothes she is wearing is that of an old weathered robe. She's been living here for quite sometime.
+(perform [talk to *])
+	For the journey you are on is for that of exploration. A means of bringing peace to the land. Prince Lubok has had a hand in bringing about nothing more than death and decay. For his curse has laid waste to this land. I have seen people go absolute mad, I have seen vast fields with the smouldering remains of those foolish enough to stand up for themselves. But I mustn't help by means of dedicating myself to destroying him. You must head toward Lake Xyith and find the [Scroll of Iris].
+#ScrollTopic
+(name *)
+	Scroll of Iris
+(topic *)
+(perform [talk to #witch about *])
+	It is said to have been written by that of a great mind. One that could lead you on the path to ridding the world of his hand of evil.(par)
+	It is said that the world around us is truly lost within this dead place. Do not let your guard down. For there it is written within the world all around us. Now go, go out and find a means to this end world.
+
+#ElderlyWoman
+(animate *)
+(female *)
+(name *)
+	elderly woman
+(* is #in #r642)
+(descr *)
+	The sight of seeing her within this place all by herself, makes you wonder just what she is doing out here? For she is dressed in all black as if she is mourning the death of a loved one.
+(perform [talk to *])
+	When I was a child my parents would take me here for picnics. But its all dead, a dead place, and so I'm waiting for my time to end.
+
+#book2
+(name *)
+	book
+(* is #in #r555)
+(descr *)
+	The book is bound in worn brown leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...there are accounts of strange creatures wandering about past Lake Xyith. They stand as the same height of a normal person. They go by the name of Crets and feast upon the raw flesh of those foolish enough to become lost in the great forest. They move within the trees and hunt in packs. No one knows for sure just where they lay for the night, but many had speculated that they call trees home.
+(prevent [take #book2])
+	Its best to leave it here for the next adventurer to read.
+#book3
+(name *)
+	book
+(* is #in #r558)
+(descr *)
+	The book is bound in worn black leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	A world within a world. Forever growing and bringing about a new sense of adventure. Now one knows for sure what awaits us in the sound. Many believe that its the hand of death or perhaps just what is needed to rid the world of darkness.
+(prevent [take #book3])
+	Its best to leave it here for the next adventurer to read.
+#book4
+(name *)
+	book
+(* is #in #r561)
+(descr *)
+	The book is bound in worn fabric cover.
+(perform [read *])
+	...the darkness from the hand of the son brought with it a change in all life. The darkness that has taken hold comes from the...
+(prevent [take #book4])
+	Its best to leave it here for the next adventurer to read.
+#book5
+(name *)
+	book
+(* is #in #r564)
+(descr *)
+	The book is bound in worn brown leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...very well that culture of those who live beyond our very world.(par)
+	They seem to be living in a world all of their own. Before the great plague had swept through and erased them from the existence of the very world we call home. Such pity for those who live in an utter blind existence. For they will join the many others that came to be.
+(prevent [take #book5])
+	Its best to leave it here for the next adventurer to read.
+#book6
+(name *)
+	book
+(* is #in #r572)
+(descr *)
+	The book is bound in worn red leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...for the weakened army of Zeafith who swore to protect the citizens of the great lands. The army of darkness that brought itself to the brink of controlling the lives of the innocent. Xyith, would be the place to which the lives of the innocent were to end.
+(prevent [take #book6])
+	Its best to leave it here for the next adventurer to read.
+#book7
+(name *)
+	book
+(* is #in #r573)
+(descr *)
+	The book is bound in worn black leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...the great power that surges through the land will forever flow into the bodies and minds of those who embrace the truth.
+(prevent [take #book7])
+	Its best to leave it here for the next adventurer to read.
+#book8
+(name *)
+	book
+(* is #in #r580)
+(descr *)
+	The book is bound in worn white leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...many stories had been spoken of the great lake that is in the north.(par)
+	It has been believed to grant one eternal youth. Those who were sick or old were given the gift of a second chance. Named after the sister of god known as Breen. For those who wish to make the trek must know that the hazards may out weight the good.
+(prevent [take #book8])
+	Its best to leave it here for the next adventurer to read.
+#book9
+(name *)
+	book
+(* is #in #r586)
+(descr *)
+	The book is bound in worn brown leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...lost in a world forever carried forth by the great bird of the Kings known as Velinta. It would sorrow through the heavens and bring with it the force of the gods. Entire armies were said to have been erased from existence. Velinta during the struggle for the throne in 197 HKE was said to have left the realm of man and vanished into the mist.
+(prevent [take #book9])
+	Its best to leave it here for the next adventurer to read.
+#book10
+(name *)
+	book
+(* is #in #r590)
+(descr *)
+	The book is bound in worn white leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...the province of Somline was such a place where those who had been born within captivity due to the actions of their own parents were able to live free amongst themselves. These people were a mixed bag from every corned of the known world. They were able to grow and build a mighty army to the west. Many who had attempted to make contact with them all but were erased from existence.
+(prevent [take #book10])
+	Its best to leave it here for the next adventurer to read.
+#book11
+(name *)
+	book
+(* is #in #r594)
+(descr *)
+	The book is bound in worn red leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...a sky void of life and forever frozen in the state of utter darkness.(par)
+	For then cam upon the rise of those who dwelled beneath the surface and rise to the surface and reclaim their world...
+(prevent [take #book11])
+	Its best to leave it here for the next adventurer to read.
+#book12
+(name *)
+	book
+(* is #in #r600)
+(descr *)
+	The book is bound in worn brown leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...the great Queen of the lands blessed by the sun. Grew into her role by which she ruled over all her subjects. For she was born on a stormy night to that of King Marnic and Queen Cresian.
+(prevent [take #book12])
+	Its best to leave it here for the next adventurer to read.
+#book13
+(name *)
+	book
+(* is #in #r603)
+(descr *)
+	The book is bound in worn tan leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...for there speaks of a place to which not even the bears dare to wander. This place is deep within the foothills. This place is carved into the earth. Where columns of fire and a stream of molten metal flow freely. This is the home of the worshippers of Jenith.
+(prevent [take #book13])
+	Its best to leave it here for the next adventurer to read.
+#book14
+(name *)
+	book
+(* is #in #r609)
+(descr *)
+	The book is bound in worn tan leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...the means of existing within a world such as ours. Is poisoned to the core and thusly so one must remove the heart from the flesh.(par)
+	For that was the cost for living a world free for ones own devices.
+(prevent [take #book14])
+	Its best to leave it here for the next adventurer to read.
+#book15
+(name *)
+	book
+(* is #in #r610)
+(descr *)
+	The book is bound in worn tan leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...as one reaches the great lake of Xyith, one must make note for ones own travels that past the lake is that of the cabin of Veit.(par)
+	Veit, is one of the great hunters in the region and thusly so will spend his time wandering through the wilderness tracking the beast.
+(prevent [take #book15])
+	Its best to leave it here for the next adventurer to read.
+#book16
+(name *)
+	book
+(* is #in #r611)
+(descr *)
+	The book is bound in worn tan leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...a world forever lost in a state of decay. For the history of our people we must continue to focus on the great threat. That threat is that of the wild Scuttler Worm. A disgusting creature that lives in the loose soil and feasts upon the exposed flesh of those foolish enough to sleep unprepared in the wild.
+(prevent [take #book16])
+	Its best to leave it here for the next adventurer to read.
+#book17
+(name *)
+	book
+(* is #in #r612)
+(descr *)
+	The book is bound in worn tan leather. It looked to be covered in a thin layer of dust.
+(perform [read *])
+	...the issues on the coast just outside of the fishing village of Luxkin. Some say that the fresh air and a meal of a stew like dish consisting of a fine mixture of fish, rice, leeks, and beer. Its called A Luxkin Kiss. It gives the warmth of love and a love for life.
+(prevent [take #book17])
+	Its best to leave it here for the next adventurer to read.
+
+#map
+(name *)
+	map
+(* is #in #r613)
+(descr *)
+	An old canvas map pinned to the wall with a few rusted nails. Handcrafted and painted in such a way that it appears to resemble that of a work of art.
+(perform [read *])
+	                                         
+	           Province of Akernuh           
+	                                         
+	           _____________________         
+	          /                     \)        
+	         \(* Greffe            .'         
+	         \|          Heffarn   \          
+	       .-.                * ..'          
+	       \| *Somline       __.'             
+	       ..              '-.               
+	        \\                \|               
+	         \|      *        \|      .'       
+	         \|  Bernifel    \(      /\(        
+	         \\               \)    \|.'        
+	          \\         *   \| /   \|'         
+	           \\      Frun  \|/    '          
+	           _\)          ..    Isle of     
+	           >*Luxkin__. \|     Begafor     
+	           \\     .'                      
+	            -----                        
+	                                         
+(prevent [take #book17])
+	Its best to leave it here for the next adventurer to examine.
+
+#sign4
+(name *)
+	sign
+(* is #in #r621)
+(descr *)
+	Carved out of wood and with a faded warning.
+(perform [read *])
+	Stay away...
+
+#woodcarving
+(name *)
+	wood carving
+(* is #in #r625)
+(descr *)
+	Carved by the talented hands of a long since dead artist. Perhaps as warning of sorts of what awaits you if you decided to continue upon this adventure. It's a husk of twisted limbs and with a look of absolute terror it stands before you like a tortured soul with nothing left but pain and suffering.
+
+#gravestone
+(name *)
+	gravestone
+(* is #in #r629)
+(descr *)
+	An old slab of stone with a name carved into it. Being alone within this place makes you wonder just who this person was.
+(perform [read *])
+	D.B. died searching for Nesik.
+
+#corpse
+(name *)
+	corpse
+(* is #in #r639)
+(descr *)
+	Its been left to the elements. Its skin resembles that of leather and with thinning hair, with a dislocated jaw and empty eye sockets that greet you.
 
 %% Rooms
 
@@ -4771,6 +5147,7 @@
 #r389
 (room *)
 (name *)	r389
+(from * go #west to #r549)
 (from * go #east to #r388)
 (look *)
 	There before you is a vast garden that is filled with trees and the sky is clear. The rays of the Sun fill you with warmth.
@@ -5262,6 +5639,7 @@
 (room *)
 (name *)	r457
 (from * go #west to #r345)
+(from * go #east to #r458)
 (look *)
 	You find yourself standing before an over grown courtyard. From as far as you can see, you witness in the distance a great storm approaching.
 #r458
@@ -5398,6 +5776,7 @@
 (room *)
 (name *)	r476
 (from * go #south to #r475)
+(from * go #north to #r614)
 (look *)
 	You are standing before a vast open world. Free from the confines of the castle. Just what lurks out there is anyone's guess.
 #r477
@@ -5920,6 +6299,734 @@
 (from * go #west to #r512)
 (look *)
 	The vast unknown of this place brings you to the point to which you think that you should turn back.
+
+#r549
+(room *)
+(name *)	r549
+(from * go #east to #r389)
+(from * go #south to #r550)
+(look *)
+	You stand before the vast entrance to the great library. The great sea of knowledge that is kept before you. The flickering of the candles gives an eerie glow over everything.
+#r550
+(room *)
+(name *)	r550
+(from * go #north to #r549)
+(from * go #west to #r551)
+(look *)
+	With every passing moment you look around in complete shock over this discovery.
+#r551
+(room *)
+(name *)	r551
+(from * go #east to #r550)
+(from * go #south to #r550)
+(from * go #west to #r552)
+(look *)
+	A large desk carved out of wood stands before you. Sitting before you is that of the Librarian.
+#r552
+(room *)
+(name *)	r552
+(from * go #east to #r551)
+(from * go #north to #r559)
+(from * go #south to #r551)
+(look *)
+	A vast world of bookcases that stretches on for an eternity.
+#r553
+(room *)
+(name *)	r553
+(from * go #north to #r552)
+(from * go #west to #r554)
+(look *)
+	You look up to see that the ceiling ripples resembling that of a sea during high tide.
+#r554
+(room *)
+(name *)	r554
+(from * go #east to #r553)
+(from * go #south to #r553)
+(from * go #west to #r555)
+(look *)
+	Vast halls within this world of knowledge take you deep within the grasp of all that these people had recorded.                
+#r555
+(room *)
+(name *)	r555
+(from * go #east to #r554)
+(from * go #north to #r556)
+(from * go #south to #r602)
+(look *)
+	Upon the many shelves are filled with several Books written in a dead language, forever lost to the next generation.              
+#r556
+(room *)
+(name *)	r556
+(from * go #north to #r557)
+(from * go #south to #r559)
+(look *)
+	The brightness of the candles remind you of the unseen sun. 
+#r557
+(room *)
+(name *)	r557
+(from * go #east to #r558)
+(from * go #south to #r556)
+(from * go #west to #r581)
+(look *)
+	Rows of books stretch out as far as you can see.            
+#r558
+(room *)
+(name *)	r558
+(from * go #east to #r559)
+(from * go #north to #r560)
+(from * go #west to #r557)
+(look *)
+	You spot a Book that stands out from the others.            
+#r559
+(room *)
+(name *)	r559
+(from * go #west to #r558)
+(look *)
+	The faint sound of the chamber music playing fills the air. 
+#r560
+(room *)
+(name *)	r560
+(from * go #north to #r561)
+(look *)
+	With every step you take, you feel as if you are lost in this place.
+#r561
+(room *)
+(name *)	r561
+(from * go #east to #r562)
+(from * go #south to #r562)
+(from * go #west to #r568)
+(look *)
+	From the corner of your eye, you see an odd looking Book. From out in the distance you can hear the faint cry of the dead.        
+#r562
+(room *)
+(name *)	r562
+(from * go #north to #r563)
+(from * go #west to #r561)
+(look *)
+	With every passing moment, you see an endless collection of knowledge hidden from the outside world.
+#r563
+(room *)
+(name *)	r563
+(from * go #north to #r564)
+(look *)
+	The sudden aroma of fresh flowers fills the air.            
+#r564
+(room *)
+(name *)	r564
+(from * go #west to #r565)
+(look *)
+	Placed on a small reading table is a strange looking Book. Possibly the collected texts of a forgotten world.
+#r565
+(room *)
+(name *)	r565
+(from * go #east to #r564)
+(from * go #south to #r564)
+(from * go #west to #r566)
+(look *)
+	The dimly flickering candle light gives you the feeling of being watched from a far.
+#r566
+(room *)
+(name *)	r566
+(from * go #east to #r565)
+(from * go #south to #r565)
+(look *)
+	One could be lost within such a place. From out in the distance you can see the faint images of people going about their business.  
+#r567
+(room *)
+(name *)	r567
+(from * go #north to #r566)
+(from * go #west to #r569)
+(look *)
+	The world around you seems almost too perfect. Discovering such a place hidden away from the outside world.                         
+#r568
+(room *)
+(name *)	r568
+(from * go #east to #r561)
+(from * go #north to #r567)
+(from * go #south to #r561)
+(look *)
+	You are taking about by the ever expanding sight of this holy site.
+#r569
+(room *)
+(name *)	r569
+(from * go #east to #r567)
+(from * go #south to #r567)
+(from * go #west to #r570)
+(look *)
+	From out to the side leaning against the wall, you are met with the tormented sight of a Lost Soul who had yet to move forward. Without a moment to spare, you stop dead in your tracks.
+#r570
+(room *)
+(name *)	r570
+(from * go #east to #r569)
+(from * go #north to #r571)
+(from * go #south to #r569)
+(look *)
+	You discover a small Book sticking out of the shelf.        
+#r571
+(room *)
+(name *)	r571
+(from * go #west to #r572)
+(look *)
+	The temperature in the area slowly dropped to the point where you can see your breath. An uneasy feeling comes over you.              
+#r572
+(room *)
+(name *)	r572
+(from * go #east to #r571)
+(from * go #south to #r571)
+(from * go #west to #r573)
+(look *)
+	Nothing but the deafening silence of ones own thoughts.     
+#r573
+(room *)
+(name *)	r573
+(from * go #east to #r572)
+(from * go #south to #r572)
+(look *)
+	The flickering candle light fills the air with a warm glow. A Book from the sea of knowledge within this place calls out to you.
+#r574
+(room *)
+(name *)	r574
+(from * go #north to #r573)
+(look *)
+	Vast collections of books neatly put away for those to find. As if this place has been void of visitors in quite sometime.          
+#r575
+(room *)
+(name *)	r575
+(from * go #east to #r576)
+(from * go #north to #r574)
+(from * go #south to #r576)
+(look *)
+	Everything around you seems to change ever slowly. As if the world around you is forever dying.
+#r576
+(room *)
+(name *)	r576
+(from * go #east to #r571)
+(from * go #south to #r571)
+(from * go #west to #r575)
+(look *)
+	You are standing before a vast sea of books covering every inch of the walls. Everything about this place reminds you of a tomb.
+#r577
+(room *)
+(name *)	r577
+(from * go #north to #r570)
+(from * go #west to #r576)
+(look *)
+	The sight of books at every turn brings you a sense that the walls are closing in on you.
+#r578
+(room *)
+(name *)	r578
+(from * go #north to #r576)
+(look *)
+	The air around you grows cold as there standing before you is that of a tormented Ghost pacing about the area.
+#r579
+(room *)
+(name *)	r579
+(from * go #east to #r580)
+(from * go #north to #r578)
+(from * go #south to #r580)
+(from * go #west to #r587)
+(look *)
+	The faint flicker of the candles dancing about as if they are alive. With every step you take the floor buckles and cracks almost feeling as if the floor could give way at any moment.
+#r580
+(room *)
+(name *)	r580
+(from * go #east to #r581)
+(from * go #south to #r581)
+(from * go #west to #r579)
+(look *)
+	You turn the corner. Resting on its side is a Book left behind by a forgetful soul.
+#r581
+(room *)
+(name *)	r581
+(from * go #east to #r557)
+(from * go #south to #r557)
+(from * go #west to #r580)
+(look *)
+	The vast collection of books makes you feel as if you are nothing more than an uneducated traveler. From out of nowhere you are greeted by a Lost Soul that floated up from the ground.
+#r582
+(room *)
+(name *)	r582
+(from * go #north to #r580)
+(look *)
+	Every step you take, takes you deeper within this silent place.
+#r583
+(room *)
+(name *)	r583
+(from * go #north to #r582)
+(from * go #west to #r584)
+(look *)
+	Strange sounds of footsteps could be heard running away from you.
+#r584
+(room *)
+(name *)	r584
+(from * go #east to #r583)
+(from * go #south to #r588)
+(from * go #west to #r585)
+(look *)
+	Every passing moment fills you with a feeling of absolute fear.
+#r585
+(room *)
+(name *)	r585
+(from * go #east to #r584)
+(from * go #north to #r586)
+(from * go #south to #r584)
+(look *)
+	A strange feeling comes over you all the while you begin to feel the temperature drop.
+#r586
+(room *)
+(name *)	r586
+(from * go #north to #r587)
+(look *)
+	Across from you, you notice a Book that sticks out from the rest. Just sitting on the shelf.
+#r587
+(room *)
+(name *)	r587
+(from * go #east to #r579)
+(from * go #south to #r579)
+(look *)
+	From out in the distance you can see something floating around high above the shelves.
+#r588
+(room *)
+(name *)	r588
+(from * go #north to #r584)
+(from * go #south to #r589)
+(look *)
+	You manage to make your way down a narrow hallway and to your surprise are greeted by what appears to be a Ghost.
+#r589
+(room *)
+(name *)	r589
+(from * go #north to #r588)
+(from * go #east to #r596)
+(from * go #south to #r596)
+(from * go #west to #r590)
+(look *)
+	While you make your way around, you begin to wonder just where you'll end up next.
+#r590
+(room *)
+(name *)	r590
+(from * go #east to #r589)
+(from * go #south to #r589)
+(look *)
+	You begin to find yourself taken in by this magical place of knowledge and so you soon discover a Book that catches your eye.
+#r591
+(room *)
+(name *)	r591
+(from * go #north to #r590)
+(look *)
+	The ground begins to slope down as you travel deeper into the library.
+#r592
+(room *)
+(name *)	r592
+(from * go #east to #r593)
+(from * go #north to #r591)
+(from * go #south to #r593)
+(look *)
+	You notice that this section of the library is older than the others that you've seen so far.
+#r593
+(room *)
+(name *)	r593
+(from * go #east to #r594)
+(from * go #south to #r594)
+(from * go #west to #r592)
+(look *)
+	The floor appears to be warped and there's a strange odor that lingers in the air.
+#r594
+(room *)
+(name *)	r594
+(from * go #east to #r597)
+(from * go #north to #r595)
+(from * go #south to #r597)
+(from * go #west to #r593)
+(look *)
+	Silence surrounds you as you see a Book lying flat on a small table, left behind by some forgetful reader.
+#r595
+(room *)
+(name *)	r595
+(from * go #north to #r596)
+(look *)
+	The lights begin to flicker as the echo of conversations can be heard from a far.
+#r596
+(room *)
+(name *)	r596
+(from * go #west to #r589)
+(look *)
+	With every passing moment of traveling through this great library, you begin to feel as if you'll never see the light of the sun again.
+#r597
+(room *)
+(name *)	r597
+(from * go #east to #r598)
+(from * go #south to #r598)
+(from * go #west to #r594)
+(look *)
+	You enter the narrow hallway and soon to your surprise are greeted by the friendly smile of a Lost Soul.
+#r598
+(room *)
+(name *)	r598
+(from * go #east to #r606)
+(from * go #north to #r599)
+(from * go #south to #r606)
+(from * go #west to #r597)
+(look *)
+	With every passing moment, you find yourself moving through the ever narrowing pathway.
+#r599
+(room *)
+(name *)	r599
+(from * go #north to #r600)
+(look *)
+	The alluring chamber music that is playing calms your soul and you wonder just what will happen the further you travel.        
+#r600
+(room *)
+(name *)	r600
+(from * go #east to #r601)
+(from * go #south to #r601)
+(look *)
+	A forgotten part of the library left vacant except for a lone Book.
+#r601
+(room *)
+(name *)	r601
+(from * go #north to #r602)
+(from * go #east to #r603)
+(from * go #south to #r603)
+(from * go #west to #r600)
+(look *)
+	As you make your way through the old section of the library, you are taken aback by the sight of the vast collection of ancient texts.
+#r602
+(room *)
+(name *)	r602
+(from * go #north to #r554)
+(from * go #south to #r601)
+(look *)
+	You feel an uneasy emotion come over you. The air is cold and thick. From out of the mist you see the faint image of a Ghost.    
+#r603
+(room *)
+(name *)	r603
+(from * go #west to #r601)
+(look *)
+	Old columns hold the ceiling as they are decorated with fine cloth, that is stained by the hands of time. Resting before you on a small table is that of a Book.
+#r604
+(room *)
+(name *)	r604
+(from * go #east to #r607)
+(from * go #north to #r603)
+(from * go #south to #r607)
+(look *)
+	The flames of the candles flicker as if they will go out at any moment.
+#r605
+(room *)
+(name *)	r605
+(from * go #north to #r604)
+(from * go #west to #r606)
+(look *)
+	Narrow pathes forged by those who keep this place running are etched into the floor.
+#r606
+(room *)
+(name *)	r606
+(from * go #east to #r605)
+(from * go #south to #r605)
+(from * go #west to #r598)
+(look *)
+	With every passing moment you find yourself diving ever so deeper into this place of history.
+#r607
+(room *)
+(name *)	r607
+(from * go #east to #r608)
+(from * go #south to #r608)
+(from * go #west to #r604)
+(look *)
+	You enter the hall and standing before you is that of an Old Guard. Just what is he doing within this place is not yet known.   
+#r608
+(room *)
+(name *)	r608
+(from * go #north to #r609)
+(from * go #west to #r607)
+(look *)
+	Before you is a hidden section of this library. The walls are decorated with a variety of decorative tapestries.
+#r609
+(room *)
+(name *)	r609
+(from * go #east to #r610)
+(from * go #south to #r610)
+(look *)
+	Old tables are in the center of the room and covered by several books, but one Book catches your eye.
+#r610
+(room *)
+(name *)	r610
+(from * go #west to #r609)
+(look *)
+	Dimly lit candles that have been burning throughout the day and night and are flickering on their last moments on this earth. You see an old Book left by itself off to the side.
+#r611
+(room *)
+(name *)	r611
+(from * go #north to #r610)
+(look *)
+	Nothing but the ever growing reach of darkness. Hidden away within the grasp of the darkness is a Book.
+#r612
+(room *)
+(name *)	r612
+(from * go #north to #r611)
+(from * go #west to #r613)
+(look *)
+	Old chairs are neatly tucked under the tables. As if they are waiting to be used. From the corner of your eye you spot an old Book on the table, as if someone put it there for you to read.
+#r613
+(room *)
+(name *)	r613
+(from * go #east to #r612)
+(from * go #north to #r608)
+(from * go #south to #r612)
+(look *)
+	Before you hanging on the wall is that of an Old Map that reveals so much of this unknown land.
+#r614
+(room *)
+(name *)	r614
+(from * go #east to #r615)
+(from * go #south to #r476)
+(look *)
+	You are standing before a vast dead forest void of any light. There's a chill in the air that sends a jolt throughout your body.
+#r615
+(room *)
+(name *)	r615
+(from * go #east to #r616)
+(from * go #west to #r614)
+(look *)
+	With every step you take down the old worn trail, the mere thought of being within such a dead place.
+#r616
+(room *)
+(name *)	r616
+(from * go #north to #r617)
+(from * go #west to #r615)
+(look *)
+	A narrow bridge stands before you, stretched out over a racing river.
+#r617
+(room *)
+(name *)	r617
+(from * go #north to #r618)
+(from * go #south to #r616)
+(look *)
+	You are standing on the slow swaying bridge. Put together with ancient scraps of wood and rusted nails. Held together with firm and weathered rope.     
+#r618
+(room *)
+(name *)	r618
+(from * go #east to #r619)
+(from * go #south to #r617)
+(look *)
+	You reach the other side as you can hear the faint sound of a woman scream for dear life.
+#r619
+(room *)
+(name *)	r619
+(from * go #east to #r620)
+(from * go #west to #r618)
+(look *)
+	The sounds of the birds calling out to one another catches you off guard. You feel as if something is watching you.            
+#r620
+(room *)
+(name *)	r620
+(from * go #north to #r621)
+(from * go #west to #r619)
+(look *)
+	The trail you take is overgrown with brush and debris. Everything from within you screams for you to leave.
+#r621
+(room *)
+(name *)	r621
+(from * go #north to #r622)
+(from * go #south to #r620)
+(look *)
+	A Sign sticks out of the ground, as you look over this unknown world.
+#r622
+(room *)
+(name *)	r622
+(from * go #east to #r623)
+(from * go #north to #r626)
+(from * go #south to #r621)
+(look *)
+	The wind picks up as the trees and the brush move as if they are alive.
+#r623
+(room *)
+(name *)	r623
+(from * go #east to #r624)
+(from * go #west to #r622)
+(look *)
+	The faint stench of death and decay lingers in the air.     
+#r624
+(room *)
+(name *)	r624
+(from * go #east to #r625)
+(from * go #west to #r623)
+(look *)
+	You look upon the forest as the world around you stands still.
+#r625
+(room *)
+(name *)	r625
+(from * go #west to #r624)
+(look *)
+	Standing before you and blocking your way is a large Wood Carving.
+#r626
+(room *)
+(name *)	r626
+(from * go #north to #r630)
+(from * go #south to #r622)
+(from * go #west to #r627)
+(look *)
+	With every step you take throughout the forest path all you could hear was the sound of your feet.
+#r627
+(room *)
+(name *)	r627
+(from * go #east to #r626)
+(from * go #west to #r628)
+(look *)
+	A narrow path leads you off into the dark unknown.          
+#r628
+(room *)
+(name *)	r628
+(from * go #east to #r627)
+(from * go #west to #r629)
+(look *)
+	Nothing but silence greets you deep within this unknown world.
+#r629
+(room *)
+(name *)	r629
+(from * go #east to #r628)
+(look *)
+	You are standing before a small Gravestone surrounded by a vast wall of trees that with all their might block only a small portion of the sky.
+#r630
+(room *)
+(name *)	r630
+(from * go #north to #r631)
+(from * go #south to #r626)
+(look *)
+	You look about surprised to see that this part of the trail is nothing more than bare trees.
+#r631
+(room *)
+(name *)	r631
+(from * go #east to #r633)
+(from * go #north to #r632)
+(from * go #south to #r630)
+(from * go #west to #r649)
+(look *)
+	A great opening in this once dead forest. A world forever changing around you. The constant silence driving you insane.
+#r632
+(room *)
+(name *)	r632
+(from * go #south to #r631)
+(look *)
+	You stumble down the trail and soon find that you aren't alone. Before you is that of a small camp made in this god forsaken place. With a small tent setup consisting of what fabric she could get her hands on, the Witch greets you with her arms held out as if she is about to give you a hug. Perhaps, she's been out here longer than you think?
+#r633
+(room *)
+(name *)	r633
+(from * go #east to #r634)
+(from * go #west to #r631)
+(look *)
+	With every passing moment you find yourself walking past the dead world littered with the constant reminders of death. From all around you, you can see what you believe to be human bones sticking out of the earth.    
+#r634
+(room *)
+(name *)	r634
+(from * go #east to #r635)
+(from * go #west to #r633)
+(look *)
+	From out in the distance you can see the faint image of someone or something watching you.
+#r635
+(room *)
+(name *)	r635
+(from * go #north to #r636)
+(from * go #west to #r634)
+(look *)
+	Before you can do anything the strange being grows closer towards you.
+#r636
+(room *)
+(name *)	r636
+(from * go #north to #r637)
+(from * go #south to #r635)
+(look *)
+	A small stream is off to the side of the trail. Everything about this brings you to the very brink of madness.                    
+#r637
+(room *)
+(name *)	r637
+(from * go #north to #r638)
+(from * go #south to #r636)
+(look *)
+	From the corner of your eye, you discover that you are not alone. The sight of a fully covered Figure sitting on a rock almost like that of a statue.   
+#r638
+(room *)
+(name *)	r638
+(from * go #south to #r637)
+(from * go #west to #r639)
+(look *)
+	A warm breeze rushes past you all the while the ground begins to move beneath your feet.
+#r639
+(room *)
+(name *)	r639
+(from * go #east to #r638)
+(from * go #west to #r640)
+(look *)
+	A loud scream fills the air as there sitting before you in an old wood chair is that of the Corpse of an unknown stranger.         
+#r640
+(room *)
+(name *)	r640
+(from * go #east to #r639)
+(from * go #west to #r641)
+(look *)
+	The sound of laughter fills the air as you don't know for sure just where it is coming from.
+#r641
+(room *)
+(name *)	r641
+(from * go #east to #r640)
+(from * go #west to #r642)
+(look *)
+	The sun begins to be blanketed as dark clouds fill the sky.
+#r642
+(room *)
+(name *)	r642
+(from * go #east to #r641)
+(from * go #west to #r643)
+(look *)
+	You stop for a moment to catch your breath as you are taken aback by seeing an Elderly Woman walking towards you.                
+#r643
+(room *)
+(name *)	r643
+(from * go #east to #r642)
+(from * go #west to #r644)
+(look *)
+	An unknown world begins to grow darker with every passing moment.
+#r644
+(room *)
+(name *)	r644
+(from * go #east to #r643)
+(from * go #south to #r645)
+(look *)
+	A thick fog starts to grow around yo all the while the world begins to fade away.
+#r645
+(room *)
+(name *)	r645
+(from * go #north to #r644)
+(from * go #south to #r646)
+(look *)
+	With every passing moment you stumble about attempting to find a safe passage out of here.
+#r646
+(room *)
+(name *)	r646
+(from * go #north to #r645)
+(from * go #south to #r647)
+(look *)
+	You feel as if you are being watched but perhaps that is just the cold hand of paranoia taking hold of you.
+#r647
+(room *)
+(name *)	r647
+(from * go #east to #r648)
+(from * go #north to #r646)
+(look *)
+	The fog begins to slowly grow around you covering this forsaken place.
+#r648
+(room *)
+(name *)	r648
+(from * go #east to #r649)
+(from * go #west to #r647)
+(look *)
+	The ground is dry and with every step fills the air with your presence.
+#r649
+(room *)
+(name *)	r649
+(from * go #east to #r631)
+(from * go #west to #r648)
+(look *)
+	You stand before a narrow path within this dying place. Just what will you find? 
 
 %%end rooms
 
