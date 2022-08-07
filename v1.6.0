@@ -2076,7 +2076,7 @@ If cmd$ = "GO EAST" Or cmd$ = "EAST" Or cmd$ = "E" Then
     If r = 437 Then: r = 436: GoTo moved
     If r = 456 Then: r = 455: GoTo moved
     If r = 455 Then: r = 454: GoTo moved
-    If r = 345 Then: r = 458: GoTo moved
+    If r = 457 Then: r = 458: GoTo moved
     If r = 458 Then: r = 477: GoTo moved
     If r = 477 Then: r = 478: GoTo moved
     If r = 478 Then: r = 479: GoTo moved
@@ -8654,14 +8654,14 @@ Return
 
 r435:
 Print "________________________________________________________________________"
-Print " Cages filled with Chickens are placed along the side of the path. A    "
-Print " sort of market in the hopes of making a sale.                          "
+Print " A narrow path leads into a dark abyss.                                 "
 Print "________________________________________________________________________"
 Return
 
 r436:
 Print "________________________________________________________________________"
-Print " A narrow path leads into a dark abyss.                                 "
+Print " Cages filled with Chickens are placed along the side of the path. A    "
+Print " sort of market in the hopes of making a sale.                          "
 Print "________________________________________________________________________"
 Return
 
